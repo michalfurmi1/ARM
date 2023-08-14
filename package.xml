@@ -1374,6 +1374,7 @@
         <members>MessagingSession.StartTime</members>
         <members>MessagingSession.Status</members>
         <members>Mock_Demo__c.DemoField__c</members>
+        <members>Mock_Demo__c.Status__c</members>
         <members>OperatingHours.Description</members>
         <members>OperatingHours.Name</members>
         <members>OperatingHours.TimeZone</members>
