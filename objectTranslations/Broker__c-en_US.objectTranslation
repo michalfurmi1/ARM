@@ -8,40 +8,5 @@
         <plural>true</plural>
         <value>Brokers</value>
     </caseValues>
-    <fields>
-        <label></label>
-        <name>Email__c</name>
-    </fields>
-    <fields>
-        <label></label>
-        <name>Mobile_Phone__c</name>
-    </fields>
-    <fields>
-        <label></label>
-        <name>Phone__c</name>
-    </fields>
-    <fields>
-        <label></label>
-        <name>Picture_IMG__c</name>
-    </fields>
-    <fields>
-        <label></label>
-        <name>Picture__c</name>
-    </fields>
-    <fields>
-        <label></label>
-        <name>Title__c</name>
-    </fields>
-    <layouts>
-        <layout>Broker Layout</layout>
-        <sections>
-            <label></label>
-            <section>Custom Links</section>
-        </sections>
-        <sections>
-            <label></label>
-            <section>Picture</section>
-        </sections>
-    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

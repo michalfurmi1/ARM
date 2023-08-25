@@ -11,9 +11,9 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>devmichalfurmanek2@arm2.com</defaultCaseOwner>
+    <defaultCaseOwner>michal.furmanek@autorabit.com.prod</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>devmichalfurmanek2@arm2.com</defaultCaseUser>
+    <defaultCaseUser>michal.furmanek@autorabit.com.prod</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
