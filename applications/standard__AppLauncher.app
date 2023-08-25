@@ -6,5 +6,4 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-AppLauncher</tabs>
-    <tabs>Mock_Demo__c</tabs>
 </CustomApplication>
