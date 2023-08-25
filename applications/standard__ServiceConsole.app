@@ -180,11 +180,7 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>Mock_Demo__c</tabs>
     <workspaceConfig>
-        <mappings>
-            <tab>Mock_Demo__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
