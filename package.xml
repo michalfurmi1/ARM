@@ -72,6 +72,7 @@
         <members>Account.CustomerPriority__c</members>
         <members>Account.DandbCompanyId</members>
         <members>Account.Description</members>
+        <members>Account.Display_Name__c</members>
         <members>Account.DunsNumber</members>
         <members>Account.Fax</members>
         <members>Account.Industry</members>
@@ -2595,7 +2596,11 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>Advertise_New_Property</members>
         <members>Create_property</members>
+        <members>Opportunity_Status_Change</members>
+        <members>Post_Price_Changes_to_Slack</members>
+        <members>Price_Change_Push_Notification</members>
         <name>Flow</name>
     </types>
     <types>
