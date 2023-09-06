@@ -178,6 +178,7 @@
         <members>Account.CustomerPriority__c</members>
         <members>Account.DandbCompanyId</members>
         <members>Account.Description</members>
+        <members>Account.Display_Name__c</members>
         <members>Account.DunsNumber</members>
         <members>Account.Fax</members>
         <members>Account.Industry</members>
@@ -192,7 +193,6 @@
         <members>Account.Ownership</members>
         <members>Account.ParentId</members>
         <members>Account.Phone</members>
-        <members>Account.Previous_Name__c</members>
         <members>Account.Rating</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
@@ -743,7 +743,6 @@
         <members>Contact.LastCUUpdateDate</members>
         <members>Contact.LeadSource</members>
         <members>Contact.Level__c</members>
-        <members>Contact.Location__c</members>
         <members>Contact.MailingAddress</members>
         <members>Contact.MobilePhone</members>
         <members>Contact.Name</members>
@@ -2785,6 +2784,7 @@
     </types>
     <types>
         <members>Advertise_New_Property</members>
+        <members>Create_property</members>
         <members>Opportunity_Status_Change</members>
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
@@ -3393,6 +3393,113 @@
         <name>Settings</name>
     </types>
     <types>
+        <members>Account</members>
+        <members>ActivityRecurrence2</members>
+        <members>ActivityRecurrence2Exception</members>
+        <members>AlternativePaymentMethod</members>
+        <members>AppointmentInvitation</members>
+        <members>Asset</members>
+        <members>AssistantInteraction</members>
+        <members>AssistantProgress</members>
+        <members>AssistantRecommendation</members>
+        <members>AuthorizationForm</members>
+        <members>AuthorizationFormConsent</members>
+        <members>AuthorizationFormDataUse</members>
+        <members>BusinessBrand</members>
+        <members>CalendarModel</members>
+        <members>CalendarView</members>
+        <members>Campaign</members>
+        <members>Case</members>
+        <members>ChangeRequest</members>
+        <members>CleanLeadBackup</members>
+        <members>CommSubscription</members>
+        <members>CommSubscriptionChannelType</members>
+        <members>CommSubscriptionConsent</members>
+        <members>ComponentResponseCache</members>
+        <members>ConsumptionSchedule</members>
+        <members>Contact</members>
+        <members>ContactPointConsent</members>
+        <members>ContactPointTypeConsent</members>
+        <members>ContactRequest</members>
+        <members>ConvCoachingRecommendation</members>
+        <members>Coupon</members>
+        <members>CreditMemo</members>
+        <members>Customer</members>
+        <members>DataUseLegalBasis</members>
+        <members>DataUsePurpose</members>
+        <members>EngagementChannelType</members>
+        <members>ExchangeUserMapping</members>
+        <members>ExternalEventMapping</members>
+        <members>FinanceBalanceSnapshot</members>
+        <members>FinanceTransaction</members>
+        <members>FlowInterview</members>
+        <members>FlowInterviewLog</members>
+        <members>FlowOrchestrationInstance</members>
+        <members>FlowOrchestrationLog</members>
+        <members>FlowOrchestrationStageInstance</members>
+        <members>FlowOrchestrationStepInstance</members>
+        <members>FlowOrchestrationWorkItem</members>
+        <members>FlowTestResult</members>
+        <members>Image</members>
+        <members>Incident</members>
+        <members>Individual</members>
+        <members>Invoice</members>
+        <members>Lead</members>
+        <members>LearningItem</members>
+        <members>LegalEntity</members>
+        <members>ListEmail</members>
+        <members>Location</members>
+        <members>LocationGroup</members>
+        <members>Macro</members>
+        <members>MacroUsage</members>
+        <members>MessagingEndUser</members>
+        <members>MessagingSession</members>
+        <members>NotifDeliveryUserPref</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>OrgDeleteRequest</members>
+        <members>PartyConsent</members>
+        <members>Problem</members>
+        <members>ProcessException</members>
+        <members>Product2</members>
+        <members>Promotion</members>
+        <members>PromotionSegment</members>
+        <members>PromptAction</members>
+        <members>PromptError</members>
+        <members>QuickText</members>
+        <members>QuickTextUsage</members>
+        <members>RecordMergeHistory</members>
+        <members>ReportResultBlob</members>
+        <members>ReturnOrder</members>
+        <members>Scorecard</members>
+        <members>Seller</members>
+        <members>ServiceAppointment</members>
+        <members>ServiceContract</members>
+        <members>ServiceResource</members>
+        <members>ServiceTerritory</members>
+        <members>Shift</members>
+        <members>SiqUserBlacklist</members>
+        <members>StreamActivityAccess</members>
+        <members>StreamingChannel</members>
+        <members>TodayGoal</members>
+        <members>User</members>
+        <members>UserAppMenuCustomization</members>
+        <members>UserEmailPreferredPerson</members>
+        <members>UserExternalCredential</members>
+        <members>UserProvisioningRequest</members>
+        <members>VoiceCall</members>
+        <members>Waitlist</members>
+        <members>WebCart</members>
+        <members>WebStore</members>
+        <members>WorkOrder</members>
+        <members>WorkPlan</members>
+        <members>WorkPlanTemplate</members>
+        <members>WorkStepTemplate</members>
+        <members>WorkType</members>
+        <members>WorkTypeGroup</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
         <members>AccountContactRole</members>
         <members>AccountOwnership</members>
         <members>AccountRating</members>
@@ -3470,6 +3577,7 @@
     <types>
         <members>Account</members>
         <members>Asset</members>
+        <members>Broker__c</members>
         <members>Campaign</members>
         <members>Case</members>
         <members>ChangeRequest</members>
@@ -3483,6 +3591,7 @@
         <members>Opportunity</members>
         <members>Order</members>
         <members>Problem</members>
+        <members>Property__c</members>
         <members>ResourceAbsence</members>
         <members>ResourcePreference</members>
         <members>ReturnOrder</members>
