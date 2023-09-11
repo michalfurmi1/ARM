@@ -415,6 +415,14 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Relevant_for_Sales__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Relevant for Sales</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>SLAExpirationDate__c</fullName>
         <externalId>false</externalId>
         <label>SLA Expiration Date</label>

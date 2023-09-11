@@ -196,6 +196,7 @@
         <members>Account.Phone</members>
         <members>Account.Previous_Name__c</members>
         <members>Account.Rating</members>
+        <members>Account.Relevant_for_Sales__c</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
@@ -3162,6 +3163,7 @@
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>
+        <members>CodeScan Integration</members>
         <members>ContractManager</members>
         <members>Cross Org Data Proxy User</members>
         <members>Custom%3A Marketing Profile</members>
@@ -3195,6 +3197,14 @@
         <members>StandardAul</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>CodeScan_Integration_profilePasswordPolicy1693996926496</members>
+        <name>ProfilePasswordPolicy</name>
+    </types>
+    <types>
+        <members>CodeScan_Integration_profileSessionSetting1693996926593</members>
+        <name>ProfileSessionSetting</name>
     </types>
     <types>
         <members>Case.LogACall</members>
