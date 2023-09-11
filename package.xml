@@ -194,6 +194,7 @@
         <members>Account.Ownership</members>
         <members>Account.ParentId</members>
         <members>Account.Phone</members>
+        <members>Account.Previous_Name__c</members>
         <members>Account.Rating</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
