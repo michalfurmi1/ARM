@@ -743,6 +743,7 @@
         <members>Contact.LastCUUpdateDate</members>
         <members>Contact.LeadSource</members>
         <members>Contact.Level__c</members>
+        <members>Contact.Location__c</members>
         <members>Contact.MailingAddress</members>
         <members>Contact.MobilePhone</members>
         <members>Contact.Name</members>
