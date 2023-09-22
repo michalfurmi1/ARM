@@ -11,7 +11,7 @@ public with sharing class BotController {
         }
 
     }
-
+	// this is static list for handlers
     static List<HandlerMapping> handlerMappings;
     
     static {
