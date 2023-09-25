@@ -11,7 +11,8 @@ public with sharing class BotController {
         }
 
     }
-	// this is static list for handlers
+    // this is static list for handlers -- GET MERGE CONFLICT
+    
     static List<HandlerMapping> handlerMappings;
     
     static {
@@ -19,7 +20,7 @@ public with sharing class BotController {
         System.debug(commands);
         List<HandlerMapping> mappings = new List<HandlerMapping>();
         for (Bot_Command__c command : commands) {
-			mappings.add(new HandlerMapping(command.apex_class__c, command.pattern__c));
+            mappings.add(new HandlerMapping(command.apex_class__c, command.pattern__c));
         }
         handlerMappings = mappings;
     }
