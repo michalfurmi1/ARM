@@ -14,7 +14,7 @@ public with sharing class BotController {
 
     static List<HandlerMapping> handlerMappings;
 
-    // HandlerMapping Logic -  comment Vigneshnew
+    // HandlerMapping Logic -  comment Vigneshnew TEST 2
 
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = FALSE ORDER BY Name];
