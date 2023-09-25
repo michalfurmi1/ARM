@@ -11,7 +11,8 @@ public with sharing class BotController {
         }
 
     }
-	// this is static list for handlers
+    // this is static list for handlers -- GET MERGE CONFLICT
+    
     static List<HandlerMapping> handlerMappings;
 
     // HandlerMapping Logic -  comment Vigneshnew
