@@ -14,7 +14,7 @@ public with sharing class BotController {
 	// this is static list for handlers
     static List<HandlerMapping> handlerMappings;
 
-    // HandlerMapping Logic - new
+    // HandlerMapping Logic -  comment Vigneshnew
 
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = FALSE ORDER BY Name];
@@ -26,7 +26,7 @@ public with sharing class BotController {
         handlerMappings = mappings;
     }
     
-    // submit logic to follow 
+    // submit logic to follow - update of class
     
     @AuraEnabled
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
