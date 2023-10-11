@@ -16,14 +16,14 @@ public class BotResponse {
     }
 
     /**
-     * Convenience constructor to create a response with a single thread
+     * Convenience constructor to create a response with a single error
      */
     public BotResponse(BotMessage message) {
         this.messages = new BotMessage[]{message};
     }
 
     /**
-     * Convenience constructor to create a response with a single message
+     * Convenience constructor to create a response with a single message and image
      */
     public BotResponse(BotMessage message, Map<String, String> session) {
         this.messages = new BotMessage[]{message};
