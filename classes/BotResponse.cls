@@ -16,7 +16,7 @@ public class BotResponse {
     }
 
     /**
-     * Convenience constructor to create a response with a single MESSAGE
+     * Convenience constructor to create a response with a single error
      */
     public BotResponse(BotMessage message) {
         this.messages = new BotMessage[]{message};
