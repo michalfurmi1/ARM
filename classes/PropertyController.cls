@@ -35,7 +35,7 @@ global with sharing class PropertyController {
                 WHERE Date_Listed__c != NULL AND (Date_Agreement__c = NULL OR Date_Agreement__c = LAST_N_DAYS:90)];
     }
     
-      // this is added comment for getting similar properties and display it V3
+      // comment GETTING PROPERTIES
     @AuraEnabled
     public static List<Property__c> getSimilarProperties (Id propertyId, Decimal bedrooms, Decimal price, String searchCriteria) {
         if (searchCriteria == 'Bedrooms') {
