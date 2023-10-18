@@ -35,10 +35,12 @@ global with sharing class PropertyController {
                 WHERE Date_Listed__c != NULL AND (Date_Agreement__c = NULL OR Date_Agreement__c = LAST_N_DAYS:90)];
     }
     
-    // this is added comment for getting similar properties x2
+    // update of getting similar properties
     @AuraEnabled
     public static List<Property__c> getSimilarProperties (Id propertyId, Decimal bedrooms, Decimal price, String searchCriteria) {
         if (searchCriteria == 'Bedrooms') {
+            Integer k;
+            Integer m;
             return [
                 SELECT Id, Name, Beds__c, Baths__c, Price__c, Broker__c, Status__c, Thumbnail__c 
                 FROM Property__c WHERE Id != :propertyId AND Beds__c = :bedrooms
