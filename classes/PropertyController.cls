@@ -9,7 +9,7 @@ public with sharing class PropertyController {
      * @param minBedrooms Minimum number of bedrooms
      * @param minBathrooms Minimum number of bathrooms
      * @param pageSize Number of properties per page
-     * @param pageNumber Page number x4
+     * @param pageNumber Page number x3
      * @return PagedResult object holding the paged and filtered list of properties
      */
     @AuraEnabled(cacheable=true scope='global')
