@@ -330,16 +330,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Display_Name__c</fullName>
-        <externalId>false</externalId>
-        <label>Display Name</label>
-        <length>60</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>DunsNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>

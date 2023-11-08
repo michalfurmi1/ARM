@@ -4,7 +4,7 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>michal.furmanek@autorabit.com.prod</assignedTo>
+            <assignedTo>devmichalfurmanek2@arm2.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
@@ -13,7 +13,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>michal.furmanek@autorabit.com.prod</assignedTo>
+            <assignedTo>devmichalfurmanek2@arm2.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>

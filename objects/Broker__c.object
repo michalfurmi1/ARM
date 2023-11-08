@@ -152,6 +152,7 @@
         <label>Broker Compact</label>
     </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -163,7 +164,20 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Broker_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>Broker Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Email__c</fullName>
+        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Email</label>
         <required>false</required>
@@ -173,6 +187,7 @@
     </fields>
     <fields>
         <fullName>Mobile_Phone__c</fullName>
+        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Mobile Phone</label>
         <required>false</required>
@@ -181,6 +196,7 @@
     </fields>
     <fields>
         <fullName>Phone__c</fullName>
+        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Phone</label>
         <required>false</required>
@@ -189,6 +205,7 @@
     </fields>
     <fields>
         <fullName>Picture_IMG__c</fullName>
+        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <formula>IMAGE( Picture__c , &quot;picture&quot; , 150, 150)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
@@ -200,6 +217,7 @@
     </fields>
     <fields>
         <fullName>Picture__c</fullName>
+        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Picture</label>
         <required>false</required>
@@ -208,6 +226,7 @@
     </fields>
     <fields>
         <fullName>Title__c</fullName>
+        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Title</label>
         <length>30</length>

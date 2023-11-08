@@ -12,5 +12,17 @@
         <label></label>
         <name>DemoField__c</name>
     </fields>
+    <fields>
+        <label></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

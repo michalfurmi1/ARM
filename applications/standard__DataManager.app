@@ -7,5 +7,6 @@
     <label>Data Manager</label>
     <navType>Standard</navType>
     <tabs>standard-AnalyticsDataManager</tabs>
+    <tabs>Mock_Demo__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

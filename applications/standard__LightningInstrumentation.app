@@ -7,5 +7,6 @@
     <label>LightningInstrumentation</label>
     <navType>Standard</navType>
     <tabs>standard-LightningInstrumentation</tabs>
+    <tabs>Mock_Demo__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

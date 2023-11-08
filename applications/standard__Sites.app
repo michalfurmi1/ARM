@@ -5,4 +5,5 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-Chatter</tabs>
+    <tabs>Mock_Demo__c</tabs>
 </CustomApplication>
