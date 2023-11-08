@@ -1,6 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>57.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>56.0</version>
+    <types>
+        <members>FileUtilities</members>
+        <members>FileUtilitiesTest</members>
+        <members>GeocodingService</members>
+        <members>GeocodingServiceTest</members>
+        <members>PagedResult</members>
+        <members>PropertyController</members>
+        <members>SampleDataController</members>
+        <members>TestPropertyController</members>
+        <members>TestSampleDataController</members>
+        <name>ApexClass</name>
+    </types>
     <types>
         <members>apexEmailNotifications</members>
         <name>ApexEmailNotifications</name>
@@ -25,6 +36,10 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>pageTemplate_2_7_3</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
         <members>Case</members>
         <members>Lead</members>
         <name>AutoResponseRules</name>
@@ -38,6 +53,16 @@
         <name>Community</name>
     </types>
     <types>
+        <members>Broker__c.Broker_Compact</members>
+        <members>Property__c.Property_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>dreamhouselogosquare</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>Dreamhouse</members>
         <members>standard__AllTabSet</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
@@ -72,7 +97,6 @@
         <members>Account.CustomerPriority__c</members>
         <members>Account.DandbCompanyId</members>
         <members>Account.Description</members>
-        <members>Account.Display_Name__c</members>
         <members>Account.DunsNumber</members>
         <members>Account.Fax</members>
         <members>Account.Industry</members>
@@ -287,14 +311,25 @@
         <members>AuthorizationFormDataUse.OwnerId</members>
         <members>AuthorizationFormText.AuthorizationFormId</members>
         <members>AuthorizationFormText.ContentDocumentId</members>
+        <members>AuthorizationFormText.DetailAuthorizationFormText</members>
         <members>AuthorizationFormText.FullAuthorizationFormUrl</members>
         <members>AuthorizationFormText.Locale</members>
         <members>AuthorizationFormText.Name</members>
         <members>AuthorizationFormText.SummaryAuthFormText</members>
+        <members>Broker__c.Broker_Id__c</members>
+        <members>Broker__c.Email__c</members>
+        <members>Broker__c.Mobile_Phone__c</members>
+        <members>Broker__c.Phone__c</members>
+        <members>Broker__c.Picture_IMG__c</members>
+        <members>Broker__c.Picture__c</members>
+        <members>Broker__c.Title__c</members>
         <members>BusinessBrand.Name</members>
         <members>BusinessBrand.OrgId</members>
         <members>BusinessBrand.OwnerId</members>
         <members>BusinessBrand.ParentId</members>
+        <members>BuyerGroup.Description</members>
+        <members>BuyerGroup.Name</members>
+        <members>BuyerGroup.OwnerId</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
         <members>Campaign.AmountWonOpportunities</members>
@@ -393,12 +428,16 @@
         <members>CardPaymentMethod.StartYear</members>
         <members>CardPaymentMethod.Status</members>
         <members>CartDeliveryGroup.CartId</members>
+        <members>CartDeliveryGroup.CompanyName</members>
         <members>CartDeliveryGroup.DeliverToFirstName</members>
         <members>CartDeliveryGroup.DeliverToLastName</members>
         <members>CartDeliveryGroup.DeliverToName</members>
         <members>CartDeliveryGroup.DesiredDeliveryDate</members>
         <members>CartDeliveryGroup.GrandTotalAmount</members>
+        <members>CartDeliveryGroup.IsDefault</members>
         <members>CartDeliveryGroup.Name</members>
+        <members>CartDeliveryGroup.SelectedDeliveryMethodId</members>
+        <members>CartDeliveryGroup.ShipToPhoneNumber</members>
         <members>CartDeliveryGroup.ShippingInstructions</members>
         <members>CartDeliveryGroup.TotalAdjustmentAmount</members>
         <members>CartDeliveryGroup.TotalAdjustmentTaxAmount</members>
@@ -408,6 +447,15 @@
         <members>CartDeliveryGroup.TotalProductAmount</members>
         <members>CartDeliveryGroup.TotalProductTaxAmount</members>
         <members>CartDeliveryGroup.TotalTaxAmount</members>
+        <members>CartDeliveryGroupMethod.Carrier</members>
+        <members>CartDeliveryGroupMethod.CartCheckoutSessionId</members>
+        <members>CartDeliveryGroupMethod.CartDeliveryGroupId</members>
+        <members>CartDeliveryGroupMethod.ClassOfService</members>
+        <members>CartDeliveryGroupMethod.IsActive</members>
+        <members>CartDeliveryGroupMethod.ProductId</members>
+        <members>CartDeliveryGroupMethod.ReferenceNumber</members>
+        <members>CartDeliveryGroupMethod.ShippingFee</members>
+        <members>CartDeliveryGroupMethod.WebCartId</members>
         <members>CartItem.AdjustmentAmount</members>
         <members>CartItem.AdjustmentTaxAmount</members>
         <members>CartItem.CartDeliveryGroupId</members>
@@ -576,10 +624,13 @@
         <members>CommSubscriptionConsent.ConsentCapturedSource</members>
         <members>CommSubscriptionConsent.ConsentGiverId</members>
         <members>CommSubscriptionConsent.ContactPointId</members>
+        <members>CommSubscriptionConsent.DataUsePurposeId</members>
         <members>CommSubscriptionConsent.EffectiveFromDate</members>
         <members>CommSubscriptionConsent.EffectiveToDate</members>
+        <members>CommSubscriptionConsent.EngagementChannelTypeId</members>
         <members>CommSubscriptionConsent.Name</members>
         <members>CommSubscriptionConsent.OwnerId</members>
+        <members>CommSubscriptionConsent.PartyId</members>
         <members>CommSubscriptionConsent.PartyRoleId</members>
         <members>CommSubscriptionConsent.PrivacyConsentStatus</members>
         <members>CommSubscriptionTiming.CommSubscriptionConsentId</members>
@@ -609,6 +660,7 @@
         <members>Contact.AccountId</members>
         <members>Contact.AssistantName</members>
         <members>Contact.AssistantPhone</members>
+        <members>Contact.AutorabitExtId__c</members>
         <members>Contact.Birthdate</members>
         <members>Contact.CleanStatus</members>
         <members>Contact.Department</members>
@@ -1149,6 +1201,24 @@
         <members>FinanceTransaction.TaxAmount</members>
         <members>FinanceTransaction.TotalAmountWithTax</members>
         <members>FinanceTransaction.TransactionDate</members>
+        <members>FlowOrchestrationInstance.OrchestrationDeveloperName</members>
+        <members>FlowOrchestrationInstance.OwnerId</members>
+        <members>FlowOrchestrationInstance.Status</members>
+        <members>FlowOrchestrationStageInstance.Label</members>
+        <members>FlowOrchestrationStageInstance.OrchestrationInstanceId</members>
+        <members>FlowOrchestrationStageInstance.Status</members>
+        <members>FlowOrchestrationStepInstance.Label</members>
+        <members>FlowOrchestrationStepInstance.OrchestrationInstanceId</members>
+        <members>FlowOrchestrationStepInstance.StageInstanceId</members>
+        <members>FlowOrchestrationStepInstance.Status</members>
+        <members>FlowOrchestrationWorkItem.AssigneeId</members>
+        <members>FlowOrchestrationWorkItem.Description</members>
+        <members>FlowOrchestrationWorkItem.Label</members>
+        <members>FlowOrchestrationWorkItem.OwnerId</members>
+        <members>FlowOrchestrationWorkItem.RelatedRecordId</members>
+        <members>FlowOrchestrationWorkItem.ScreenFlow</members>
+        <members>FlowOrchestrationWorkItem.Status</members>
+        <members>FlowOrchestrationWorkItem.StepInstanceId</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Image.AlternateText</members>
@@ -1196,6 +1266,7 @@
         <members>IncidentRelatedItem.ImpactType</members>
         <members>IncidentRelatedItem.IncidentId</members>
         <members>IncidentRelatedItem.Name</members>
+        <members>IncidentRelatedItem.Product2Id</members>
         <members>Individual.BirthDate</members>
         <members>Individual.CanStorePiiElsewhere</members>
         <members>Individual.ChildrenCount</members>
@@ -1218,6 +1289,21 @@
         <members>Individual.SendIndividualData</members>
         <members>Individual.ShouldForget</members>
         <members>Individual.Website</members>
+        <members>InventoryItemReservation.ErrorCode</members>
+        <members>InventoryItemReservation.ErrorMessage</members>
+        <members>InventoryItemReservation.InventoryReservationId</members>
+        <members>InventoryItemReservation.ItemReservationSourceId</members>
+        <members>InventoryItemReservation.ProductId</members>
+        <members>InventoryItemReservation.Quantity</members>
+        <members>InventoryItemReservation.ReservedAtLocationId</members>
+        <members>InventoryReservation.ErrorCode</members>
+        <members>InventoryReservation.ErrorMessage</members>
+        <members>InventoryReservation.IsAsyncOperationInProgress</members>
+        <members>InventoryReservation.IsSuccess</members>
+        <members>InventoryReservation.ReservationDate</members>
+        <members>InventoryReservation.ReservationDurationInSeconds</members>
+        <members>InventoryReservation.ReservationIdentifier</members>
+        <members>InventoryReservation.ReservationSourceId</members>
         <members>Invoice.Balance</members>
         <members>Invoice.BillToContactId</members>
         <members>Invoice.BillingAccountId</members>
@@ -1658,6 +1744,17 @@
         <members>ProductAttribute.VariantParentId</members>
         <members>ProductAttributeSetProduct.ProductAttributeSetId</members>
         <members>ProductAttributeSetProduct.ProductId</members>
+        <members>ProductCatalog.Name</members>
+        <members>ProductCatalog.OwnerId</members>
+        <members>ProductCategory.CatalogId</members>
+        <members>ProductCategory.Description</members>
+        <members>ProductCategory.IsNavigational</members>
+        <members>ProductCategory.Name</members>
+        <members>ProductCategory.ParentCategoryId</members>
+        <members>ProductCategory.SortOrder</members>
+        <members>ProductCategoryProduct.IsPrimaryCategory</members>
+        <members>ProductCategoryProduct.ProductCategoryId</members>
+        <members>ProductCategoryProduct.ProductId</members>
         <members>ProductConsumptionSchedule.ConsumptionScheduleId</members>
         <members>ProductConsumptionSchedule.ProductId</members>
         <members>Promotion.AreQualItemsExclFromDiscounts</members>
@@ -1694,6 +1791,8 @@
         <members>PromotionQualifier.QualifierProductSku</members>
         <members>PromotionQualifier.QualifierType</members>
         <members>PromotionSegment.Name</members>
+        <members>PromotionSegmentBuyerGroup.BuyerGroupId</members>
+        <members>PromotionSegmentBuyerGroup.PromotionSegmentId</members>
         <members>PromotionSegmentSalesStore.PromotionSegmentId</members>
         <members>PromotionSegmentSalesStore.SalesStoreId</members>
         <members>PromotionTarget.AdjustmentAmount</members>
@@ -1713,6 +1812,31 @@
         <members>PromotionTier.Name</members>
         <members>PromotionTier.PromotionId</members>
         <members>PromotionTier.Rank</members>
+        <members>Property__c.Address__c</members>
+        <members>Property__c.Assessed_Value__c</members>
+        <members>Property__c.Baths__c</members>
+        <members>Property__c.Beds__c</members>
+        <members>Property__c.Broker__c</members>
+        <members>Property__c.City__c</members>
+        <members>Property__c.Date_Agreement__c</members>
+        <members>Property__c.Date_Closed__c</members>
+        <members>Property__c.Date_Contracted__c</members>
+        <members>Property__c.Date_Listed__c</members>
+        <members>Property__c.Date_Pre_Market__c</members>
+        <members>Property__c.Days_On_Market__c</members>
+        <members>Property__c.Description__c</members>
+        <members>Property__c.Location__c</members>
+        <members>Property__c.Picture_IMG__c</members>
+        <members>Property__c.Picture__c</members>
+        <members>Property__c.Price_Sold__c</members>
+        <members>Property__c.Price__c</members>
+        <members>Property__c.Record_Link__c</members>
+        <members>Property__c.State__c</members>
+        <members>Property__c.Status__c</members>
+        <members>Property__c.Tags__c</members>
+        <members>Property__c.Thumbnail_IMG__c</members>
+        <members>Property__c.Thumbnail__c</members>
+        <members>Property__c.Zip__c</members>
         <members>QuickText.Category</members>
         <members>QuickText.Channel</members>
         <members>QuickText.IsInsertable</members>
@@ -1860,6 +1984,7 @@
         <members>ReturnOrderLineItem.QuantityRejected</members>
         <members>ReturnOrderLineItem.QuantityReturned</members>
         <members>ReturnOrderLineItem.QuantityUnitOfMeasure</members>
+        <members>ReturnOrderLineItem.ReasonForChangeText</members>
         <members>ReturnOrderLineItem.ReasonForRejection</members>
         <members>ReturnOrderLineItem.ReasonForReturn</members>
         <members>ReturnOrderLineItem.RepaymentMethod</members>
@@ -2106,6 +2231,7 @@
         <members>VoiceCall.CallerId</members>
         <members>VoiceCall.CustomerHoldDuration</members>
         <members>VoiceCall.Description</members>
+        <members>VoiceCall.DisconnectReason</members>
         <members>VoiceCall.EndUserId</members>
         <members>VoiceCall.FromPhoneNumber</members>
         <members>VoiceCall.IsRecorded</members>
@@ -2125,6 +2251,7 @@
         <members>Waitlist.IsActive</members>
         <members>Waitlist.Name</members>
         <members>Waitlist.ServiceTerritoryId</members>
+        <members>WaitlistParticipant.AcceptanceTime</members>
         <members>WaitlistParticipant.Description</members>
         <members>WaitlistParticipant.ParticipantId</members>
         <members>WaitlistParticipant.ServiceAppointmentId</members>
@@ -2162,6 +2289,7 @@
         <members>WebCart.TotalListAmount</members>
         <members>WebCart.TotalProductAmount</members>
         <members>WebCart.TotalProductCount</members>
+        <members>WebCart.TotalProductListAmount</members>
         <members>WebCart.TotalProductTaxAmount</members>
         <members>WebCart.TotalPromoAdjustmentAmount</members>
         <members>WebCart.TotalPromoAdjustmentTaxAmount</members>
@@ -2197,6 +2325,17 @@
         <members>WebStore.SortByPricebookId</members>
         <members>WebStore.StrikethroughPricebookId</members>
         <members>WebStore.SupportedLanguages</members>
+        <members>WebStoreBuyerGroup.BuyerGroupId</members>
+        <members>WebStoreBuyerGroup.WebStoreId</members>
+        <members>WebStoreCatalog.ProductCatalogId</members>
+        <members>WebStoreCatalog.SalesStoreId</members>
+        <members>WebStoreInventorySource.InventoryCacheTtl</members>
+        <members>WebStoreInventorySource.InventoryDimension</members>
+        <members>WebStoreInventorySource.IsEnabled</members>
+        <members>WebStoreInventorySource.LocationSourceExtRef</members>
+        <members>WebStoreInventorySource.LocationSourceId</members>
+        <members>WebStoreInventorySource.ReservationDurationInSeconds</members>
+        <members>WebStoreInventorySource.WebStoreId</members>
         <members>WorkOrder.AccountId</members>
         <members>WorkOrder.Address</members>
         <members>WorkOrder.AssetId</members>
@@ -2352,12 +2491,15 @@
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
         <members>AuthorizationFormText</members>
+        <members>Broker__c</members>
         <members>BusinessBrand</members>
+        <members>BuyerGroup</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>CardPaymentMethod</members>
         <members>CartCheckoutSession</members>
         <members>CartDeliveryGroup</members>
+        <members>CartDeliveryGroupMethod</members>
         <members>CartItem</members>
         <members>CartItemPriceAdjustment</members>
         <members>CartRelatedItem</members>
@@ -2418,12 +2560,16 @@
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
         <members>FlowOrchestrationInstance</members>
+        <members>FlowOrchestrationStageInstance</members>
+        <members>FlowOrchestrationStepInstance</members>
         <members>FlowOrchestrationWorkItem</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Incident</members>
         <members>IncidentRelatedItem</members>
         <members>Individual</members>
+        <members>InventoryItemReservation</members>
+        <members>InventoryReservation</members>
         <members>Invoice</members>
         <members>InvoiceLine</members>
         <members>Lead</members>
@@ -2450,6 +2596,7 @@
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
         <members>OpportunityLineItem</members>
+        <members>OpportunityRelatedDeleteLog</members>
         <members>Order</members>
         <members>OrderItem</members>
         <members>OrgDeleteRequest</members>
@@ -2473,11 +2620,15 @@
         <members>Product2</members>
         <members>ProductAttribute</members>
         <members>ProductAttributeSetProduct</members>
+        <members>ProductCatalog</members>
+        <members>ProductCategory</members>
+        <members>ProductCategoryProduct</members>
         <members>ProductConsumptionSchedule</members>
         <members>Promotion</members>
         <members>PromotionMarketSegment</members>
         <members>PromotionQualifier</members>
         <members>PromotionSegment</members>
+        <members>PromotionSegmentBuyerGroup</members>
         <members>PromotionSegmentSalesStore</members>
         <members>PromotionTarget</members>
         <members>PromotionTier</members>
@@ -2519,12 +2670,14 @@
         <members>Solution</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
+        <members>TableauHostMapping</members>
         <members>Task</members>
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
         <members>User</members>
         <members>UserExternalCredential</members>
+        <members>UserPrioritizedRecord</members>
         <members>UserProvisioningRequest</members>
         <members>VoiceCall</members>
         <members>Waitlist</members>
@@ -2535,6 +2688,9 @@
         <members>WebCartAdjustmentBasis</members>
         <members>WebCartAdjustmentGroup</members>
         <members>WebStore</members>
+        <members>WebStoreBuyerGroup</members>
+        <members>WebStoreCatalog</members>
+        <members>WebStoreInventorySource</members>
         <members>WorkOrder</members>
         <members>WorkOrderLineItem</members>
         <members>WorkPlan</members>
@@ -2549,8 +2705,18 @@
     </types>
     <types>
         <members>Broker__c-en_US</members>
+        <members>Mock_Demo__c-en_US</members>
         <members>Property__c-en_US</members>
         <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>Broker__c</members>
+        <members>Mock_Demo__c</members>
+        <members>Property_Explorer</members>
+        <members>Property_Finder</members>
+        <members>Property__c</members>
+        <members>Settings</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>Account.Standard_Account_Duplicate_Rule</members>
@@ -2559,6 +2725,7 @@
         <name>DuplicateRule</name>
     </types>
     <types>
+        <members>unfiled$public/CommerceReorderPortalInvitation</members>
         <members>unfiled$public/MarketingProductInquiryResponse</members>
         <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
         <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
@@ -2587,21 +2754,26 @@
         <name>EscalationRule</name>
     </types>
     <types>
+        <members>Broker_Record_Page</members>
         <members>ContactCenter_UtilityBar</members>
         <members>CrisisCenter_UtilityBar</members>
         <members>LightningSalesConsole_UtilityBar</members>
         <members>LightningSales_UtilityBar</members>
         <members>LightningService_UtilityBar</members>
+        <members>Property_Explorer</members>
+        <members>Property_Finder</members>
+        <members>Property_Record_Page</members>
         <members>RevenueCloudConsole_UtilityBar</members>
+        <members>Settings</members>
         <name>FlexiPage</name>
     </types>
     <types>
-        <members>Advertise_New_Property</members>
         <members>Create_property</members>
-        <members>Opportunity_Status_Change</members>
-        <members>Post_Price_Changes_to_Slack</members>
-        <members>Price_Change_Push_Notification</members>
         <name>Flow</name>
+    </types>
+    <types>
+        <members>Create_property</members>
+        <name>FlowDefinition</name>
     </types>
     <types>
         <members>DE Default</members>
@@ -2629,12 +2801,14 @@
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
+        <members>Broker__c-Broker Layout</members>
         <members>BusinessBrand-Business Brand Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>CardPaymentMethod-Card Payment Method Layout</members>
         <members>CartCheckoutSession-Cart Checkout Session Layout</members>
         <members>CartDeliveryGroup-Cart Delivery Group Layout</members>
+        <members>CartDeliveryGroupMethod-Cart Delivery Group Method Layout</members>
         <members>CartItem-Cart Item Layout</members>
         <members>CartTax-Cart Tax Layout</members>
         <members>CartValidationOutput-Cart Validation Output Layout</members>
@@ -2757,6 +2931,31 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>barcodeScanner</members>
+        <members>brokerCard</members>
+        <members>daysOnMarket</members>
+        <members>errorPanel</members>
+        <members>ldsUtils</members>
+        <members>listContactsFromDevice</members>
+        <members>navigateToRecord</members>
+        <members>paginator</members>
+        <members>propertyCarousel</members>
+        <members>propertyFilter</members>
+        <members>propertyListMap</members>
+        <members>propertyLocation</members>
+        <members>propertyMap</members>
+        <members>propertySummary</members>
+        <members>propertyTile</members>
+        <members>propertyTileList</members>
+        <members>sampleDataImporter</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>FiltersChange</members>
+        <members>PropertySelected</members>
+        <name>LightningMessageChannel</name>
+    </types>
+    <types>
         <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewLastWeek</members>
@@ -2777,7 +2976,10 @@
         <members>AuthorizationFormConsent.All_AuthorizationFormConsents</members>
         <members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
         <members>AuthorizationFormText.All_AuthorizationFormText</members>
+        <members>Broker__c.All</members>
         <members>BusinessBrand.All_BusinessBrands</members>
+        <members>BuyerGroup.All_Buyer_Groups</members>
+        <members>BuyerGroup.My_Buyer_Groups</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
         <members>CardPaymentMethod.CardPaymentMethod</members>
@@ -2864,6 +3066,11 @@
         <members>PaymentLineInvoice.PaymentLineInvoice</members>
         <members>ProcessException.all_process_exceptions</members>
         <members>Product2.AllProducts</members>
+        <members>ProductCatalog.All_Product_Catalogs_List_View</members>
+        <members>ProductCategory.All_Product_Categories_List_View</members>
+        <members>ProductCategory.Category_Hierarchy_SM</members>
+        <members>ProductCategory.Org_ProductCategory_Hierarchy</members>
+        <members>Property__c.All</members>
         <members>Recommendation.All_Recommendations</members>
         <members>Refund.Refund</members>
         <members>RefundLinePayment.RefundLinePayment</members>
@@ -2930,6 +3137,7 @@
     </types>
     <types>
         <members>Experience_Profile_Manager</members>
+        <members>dreamhouse</members>
         <members>sfdcInternalInt__sfdc_scrt2</members>
         <name>PermissionSet</name>
     </types>
@@ -2952,6 +3160,7 @@
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
         <members>Authenticated Website</members>
+        <members>B2B Reordering Portal Buyer Profile</members>
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>
@@ -2990,6 +3199,20 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>CodeScan_Integration_profilePasswordPolicy1693996926496</members>
+        <name>ProfilePasswordPolicy</name>
+    </types>
+    <types>
+        <members>CodeScan_Integration_profileSessionSetting1693996926593</members>
+        <name>ProfileSessionSetting</name>
+    </types>
+    <types>
+        <members>Property</members>
+        <members>PropertyExplorer</members>
+        <members>PropertyFinder</members>
+        <name>Prompt</name>
+    </types>
+    <types>
         <members>Case.LogACall</members>
         <members>Case.NewChildCase</members>
         <members>CollaborationGroup.NewGroupMember</members>
@@ -3018,6 +3241,7 @@
     </types>
     <types>
         <members>ApexDevNet</members>
+        <members>nominatim_openstreetmap</members>
         <name>RemoteSiteSetting</name>
     </types>
     <types>
@@ -3102,7 +3326,6 @@
         <members>Essentials</members>
         <members>Event</members>
         <members>ExperienceBundle</members>
-        <members>ExternalClientApp</members>
         <members>FieldService</members>
         <members>FileUploadAndDownloadSecurity</members>
         <members>FilesConnect</members>
@@ -3112,10 +3335,8 @@
         <members>GoogleApps</members>
         <members>HighVelocitySales</members>
         <members>Ideas</members>
-        <members>IdentityProvider</members>
         <members>IncidentMgmt</members>
         <members>Industries</members>
-        <members>IndustriesEinsteinFeature</members>
         <members>InvLatePymntRiskCalc</members>
         <members>InvocableAction</members>
         <members>Knowledge</members>
@@ -3142,7 +3363,6 @@
         <members>PardotEinstein</members>
         <members>PartyDataModel</members>
         <members>PathAssistant</members>
-        <members>PaymentsIngestEnabled</members>
         <members>PaymentsManagementEnabled</members>
         <members>Picklist</members>
         <members>PlatformEncryption</members>
@@ -3192,7 +3412,9 @@
         <members>AuthorizationForm</members>
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
+        <members>Broker__c</members>
         <members>BusinessBrand</members>
+        <members>BuyerGroup</members>
         <members>CalendarModel</members>
         <members>CalendarView</members>
         <members>Campaign</members>
@@ -3202,6 +3424,7 @@
         <members>CommSubscription</members>
         <members>CommSubscriptionChannelType</members>
         <members>CommSubscriptionConsent</members>
+        <members>CommerceJobStatus</members>
         <members>ComponentResponseCache</members>
         <members>ConsumptionSchedule</members>
         <members>Contact</members>
@@ -3230,6 +3453,7 @@
         <members>Image</members>
         <members>Incident</members>
         <members>Individual</members>
+        <members>InventoryReservation</members>
         <members>Invoice</members>
         <members>Lead</members>
         <members>LearningItem</members>
@@ -3241,6 +3465,7 @@
         <members>MacroUsage</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
+        <members>Mock_Demo__c</members>
         <members>NotifDeliveryUserPref</members>
         <members>Opportunity</members>
         <members>Order</members>
@@ -3249,10 +3474,12 @@
         <members>Problem</members>
         <members>ProcessException</members>
         <members>Product2</members>
+        <members>ProductCatalog</members>
         <members>Promotion</members>
         <members>PromotionSegment</members>
         <members>PromptAction</members>
         <members>PromptError</members>
+        <members>Property__c</members>
         <members>QuickText</members>
         <members>QuickTextUsage</members>
         <members>RecordMergeHistory</members>
@@ -3268,13 +3495,16 @@
         <members>SiqUserBlacklist</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
+        <members>TableauHostMapping</members>
         <members>TodayGoal</members>
         <members>User</members>
         <members>UserAppMenuCustomization</members>
         <members>UserEmailPreferredPerson</members>
         <members>UserExternalCredential</members>
+        <members>UserPrioritizedRecord</members>
         <members>UserProvisioningRequest</members>
         <members>VoiceCall</members>
+        <members>VoiceChnlInteractionEvent</members>
         <members>Waitlist</members>
         <members>WebCart</members>
         <members>WebStore</members>
@@ -3351,6 +3581,13 @@
         <members>WorkTypeDefApptType</members>
         <members>WorkTypeGroupAddInfo</members>
         <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>leafletjs</members>
+        <members>sample_data_brokers</members>
+        <members>sample_data_contacts</members>
+        <members>sample_data_properties</members>
+        <name>StaticResource</name>
     </types>
     <types>
         <members>Account</members>
