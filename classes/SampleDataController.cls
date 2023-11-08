@@ -39,7 +39,7 @@ public with sharing class SampleDataController {
         randomizeDateListed(properties);
         insert properties;
     }
-
+   // comments for code
     private static void insertContacts() {
         StaticResource contactsResource = [
             SELECT Id, Body
