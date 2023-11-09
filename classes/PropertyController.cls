@@ -9,7 +9,7 @@ public with sharing class PropertyController {
      * @param minBedrooms Minimum number of bedrooms
      * @param minBathrooms Minimum number of bathrooms
      * @param pageSize Number of properties per page
-     * @param pageNumber Page number x25
+     * @param pageNumber Page number display under page
      * @return PagedResult object holding the paged and filtered list of properties
      */
     @AuraEnabled(cacheable=true scope='global')
@@ -21,7 +21,7 @@ public with sharing class PropertyController {
         Integer pageSize,
         Integer pageNumber
     ) {
-        // Normalize inputs
+        // Normalize inputs and display proper value
         Decimal safeMaxPrice = (maxPrice == null
             ? DEFAULT_MAX_PRICE
             : maxPrice);
