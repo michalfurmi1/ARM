@@ -385,6 +385,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Graduate_School__c</fullName>
+        <externalId>false</externalId>
+        <label>Graduate School</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>HasOptedOutOfEmail</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
