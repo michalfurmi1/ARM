@@ -669,6 +669,7 @@
         <members>Contact.Email</members>
         <members>Contact.Fax</members>
         <members>Contact.GenderIdentity</members>
+        <members>Contact.Graduate_School__c</members>
         <members>Contact.HasOptedOutOfEmail</members>
         <members>Contact.HasOptedOutOfFax</members>
         <members>Contact.HomePhone</members>
