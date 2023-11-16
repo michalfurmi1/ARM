@@ -10,7 +10,8 @@ public with sharing class SampleDataController {
         insertProperties();
         insertContacts();
     }
-
+    // new comment line
+// updates in comments
     private static void insertBrokers() {
         StaticResource brokersResource = [
             SELECT Id, Body
