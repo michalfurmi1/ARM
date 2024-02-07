@@ -21,7 +21,7 @@ public with sharing class PropertyController {
         Integer pageSize,
         Integer pageNumber
     ) {
-        // Normalize inputs and display proper value V2 with max price
+        // Normalize inputs and display proper value V2
         Decimal safeMaxPrice = (maxPrice == null
             ? DEFAULT_MAX_PRICE
             : maxPrice);
