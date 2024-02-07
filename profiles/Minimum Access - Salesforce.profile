@@ -1719,6 +1719,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>DHRE__c.Proceeded__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>DataUseLegalBasis.Description</field>
         <readable>false</readable>
     </fieldPermissions>
