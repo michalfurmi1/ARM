@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>56.0</version>
+    <version>59.0</version>
     <types>
         <members>FileUtilities</members>
         <members>FileUtilitiesTest</members>
@@ -912,6 +912,7 @@
         <members>Customer.OwnerId</members>
         <members>Customer.PartyId</members>
         <members>Customer.TotalLifeTimeValue</members>
+        <members>DHRE__c.Proceeded__c</members>
         <members>DandBCompany.CompanyCurrencyIsoCode</members>
         <members>DandBCompany.CountryAccessCode</members>
         <members>DandBCompany.CurrencyCode</members>
@@ -2547,6 +2548,7 @@
         <members>CreditMemoInvApplication</members>
         <members>CreditMemoLine</members>
         <members>Customer</members>
+        <members>DHRE__c</members>
         <members>DandBCompany</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
