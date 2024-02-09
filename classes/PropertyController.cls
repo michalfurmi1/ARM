@@ -21,7 +21,7 @@ public with sharing class PropertyController {
         Integer pageSize,
         Integer pageNumber
     ) {
-        // Normalize inputs and display proper value V2 with max price displayed
+        // Normalize INPUTS
         Decimal safeMaxPrice = (maxPrice == null
             ? DEFAULT_MAX_PRICE
             : maxPrice);
@@ -78,7 +78,7 @@ public with sharing class PropertyController {
         ];
         return result;
     }
-
+   // setup flags
     /**
      * Endpoint that retrieves pictures associated with a property
      * @param propertyId Property Id

@@ -640,6 +640,7 @@
         <members>CommSubscriptionTiming.PreferredTimeStart</members>
         <members>CommSubscriptionTiming.PreferredTimeZone</members>
         <members>CommSubscriptionTiming.Unit</members>
+        <members>Comp__c.Comp_Spaces__c</members>
         <members>ConsumptionRate.ConsumptionScheduleId</members>
         <members>ConsumptionRate.Description</members>
         <members>ConsumptionRate.LowerBound</members>
@@ -2525,6 +2526,7 @@
         <members>CommSubscriptionChannelType</members>
         <members>CommSubscriptionConsent</members>
         <members>CommSubscriptionTiming</members>
+        <members>Comp__c</members>
         <members>ConsumptionRate</members>
         <members>ConsumptionSchedule</members>
         <members>Contact</members>
@@ -2829,6 +2831,7 @@
         <members>CaseClose-Close Case Layout</members>
         <members>CaseMilestone-Case Milestone Layout</members>
         <members>CommunityMemberLayout-Community Member Layout</members>
+        <members>Comp__c-Comp Layout</members>
         <members>ConsumptionRate-Consumption Rate Layout</members>
         <members>ConsumptionSchedule-Consumption Schedule Layout</members>
         <members>Contact-Contact %28Marketing%29 Layout</members>
