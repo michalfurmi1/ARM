@@ -2178,6 +2178,7 @@
         <members>Solution.SolutionName</members>
         <members>Solution.SolutionNote</members>
         <members>Solution.Status</members>
+        <members>Space__c.Space_Name__c</members>
         <members>StreamActivityAccess.ActivityTeamId</members>
         <members>StreamActivityAccess.ExternalResource</members>
         <members>StreamActivityAccess.IsContentShared</members>
@@ -2676,6 +2677,7 @@
         <members>SkillRequirement</members>
         <members>SocialPersona</members>
         <members>Solution</members>
+        <members>Space__c</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
         <members>TableauHostMapping</members>
