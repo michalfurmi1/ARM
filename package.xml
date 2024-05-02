@@ -2774,6 +2774,7 @@
     </types>
     <types>
         <members>Create_property</members>
+        <members>Waitlist2</members>
         <name>Flow</name>
     </types>
     <types>
