@@ -9,8 +9,9 @@ public with sharing class PropertyController {
      * @param minBedrooms Minimum number of bedrooms
      * @param minBathrooms Minimum number of bathrooms
      * @param pageSize Number of properties per page
-     * @param pageNumber Page number display under page updates
-     * @return PagedResult object holding the paged and filtered list of properties
+     * @param pageNumber Page number x245 and also updates in numbering display commits
+     * @return PagedResult object holding the paged and filtered list of properties with info updates
+     * Simon is big guy and wants JIRA demo
      */
     @AuraEnabled(cacheable=true scope='global')
     public static PagedResult getPagedPropertyList(
@@ -21,7 +22,8 @@ public with sharing class PropertyController {
         Integer pageSize,
         Integer pageNumber
     ) {
-        // Normalize INPUTS
+        // Normalize inputs test display testS
+        //    
         Decimal safeMaxPrice = (maxPrice == null
             ? DEFAULT_MAX_PRICE
             : maxPrice);
@@ -78,7 +80,7 @@ public with sharing class PropertyController {
         ];
         return result;
     }
-   // setup flags
+
     /**
      * Endpoint that retrieves pictures associated with a property
      * @param propertyId Property Id
