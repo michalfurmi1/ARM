@@ -4,19 +4,12 @@
         <flows>
             <screens>
                 <fields>
-                    <fieldText>apFel</fieldText>
-                    <name>APPLE</name>
+                    <fieldText>ZweiFlow</fieldText>
+                    <name>SecondFlowTranslation2</name>
                 </fields>
-                <fields>
-                    <fieldText>Datum</fieldText>
-                    <name>Date</name>
-                </fields>
-                <fields>
-                    <name>MuradText2</name>
-                </fields>
-                <name>MuradTest</name>
+                <name>TranslationsFlow</name>
             </screens>
         </flows>
-        <fullName>FlowTest</fullName>
+        <fullName>SecondFlow</fullName>
     </flowDefinitions>
 </Translations>
