@@ -4,12 +4,12 @@
         <flows>
             <screens>
                 <fields>
-                    <fieldText>ZweiFlow</fieldText>
-                    <name>SecondFlowTranslation2</name>
+                    <fieldText>DreiTrainslation</fieldText>
+                    <name>X3rd_Translations</name>
                 </fields>
-                <name>TranslationsFlow</name>
+                <name>X3rd_Flow</name>
             </screens>
         </flows>
-        <fullName>SecondFlow</fullName>
+        <fullName>X3rdFlow</fullName>
     </flowDefinitions>
 </Translations>
