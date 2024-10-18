@@ -2781,11 +2781,13 @@
     </types>
     <types>
         <members>Create_property</members>
+        <members>FlowTest</members>
         <members>Waitlist2</members>
         <name>Flow</name>
     </types>
     <types>
         <members>Create_property</members>
+        <members>FlowTest</members>
         <name>FlowDefinition</name>
     </types>
     <types>
@@ -3636,6 +3638,10 @@
         <members>WorkStep</members>
         <members>WorkStepTemplate</members>
         <name>TopicsForObjects</name>
+    </types>
+    <types>
+        <members>de</members>
+        <name>Translations</name>
     </types>
     <types>
         <members>Account.Billing</members>
