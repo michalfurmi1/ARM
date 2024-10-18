@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "PageforDelete",
+  "contentBody" : {
+    "activeViewId" : "PageforDelete",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-pagefordelete",
+    "urlPrefix" : "pagefordelete"
+  },
+  "urlName" : "pagefordelete"
+}
