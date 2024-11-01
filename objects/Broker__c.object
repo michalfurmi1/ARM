@@ -188,7 +188,6 @@
     <fields>
         <fullName>Mobile_Phone__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Mobile Phone</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -197,7 +196,6 @@
     <fields>
         <fullName>Phone__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Phone</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -218,7 +216,6 @@
     <fields>
         <fullName>Picture__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Picture</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

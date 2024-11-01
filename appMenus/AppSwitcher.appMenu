@@ -89,7 +89,19 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
+        <name>DEVHUB_eeingacigfnjsmk9clii</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>Dreamhouse</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__FlowsApp</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__ExpressionSetConsole</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

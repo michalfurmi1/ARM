@@ -18,7 +18,7 @@ public with sharing class FileUtilities {
                 WHERE Id = :contentVersion.Id
                 WITH USER_MODE
             ];
-		//edit this line of code
+
             ContentDocumentLink contentDocumentLink = new ContentDocumentLink();
             contentDocumentLink.ContentDocumentId = contentVersion.ContentDocumentId;
             contentDocumentLink.LinkedEntityId = recordId;

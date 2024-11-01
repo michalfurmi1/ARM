@@ -348,6 +348,10 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>ContactSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -371,16 +375,6 @@
         <fullName>GenderIdentity</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Graduate_School__c</fullName>
-        <externalId>false</externalId>
-        <label>Graduate School</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>HasOptedOutOfEmail</fullName>
@@ -426,7 +420,6 @@
     </fields>
     <fields>
         <fullName>Level__c</fullName>
-        <externalId>false</externalId>
         <label>Level</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>

@@ -24,7 +24,7 @@ public with sharing class SampleDataController {
         );
         insert brokers;
     }
-	//new code part
+
     private static void insertProperties() {
         StaticResource propertiesResource = [
             SELECT Id, Body
@@ -39,7 +39,7 @@ public with sharing class SampleDataController {
         randomizeDateListed(properties);
         insert properties;
     }
-   // comments for code under this block 
+
     private static void insertContacts() {
         StaticResource contactsResource = [
             SELECT Id, Body

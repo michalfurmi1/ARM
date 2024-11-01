@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>59.0</version>
+    <version>61.0</version>
     <types>
         <members>FileUtilities</members>
         <members>FileUtilitiesTest</members>
@@ -69,6 +69,8 @@
         <members>standard__Community</members>
         <members>standard__Content</members>
         <members>standard__DataManager</members>
+        <members>standard__ExpressionSetConsole</members>
+        <members>standard__FlowsApp</members>
         <members>standard__Insights</members>
         <members>standard__LightningBolt</members>
         <members>standard__LightningInstrumentation</members>
@@ -92,14 +94,11 @@
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
         <members>Account.AnnualRevenue</members>
-        <members>Account.AutorabitExtId__c</members>
         <members>Account.BillingAddress</members>
         <members>Account.CleanStatus</members>
         <members>Account.CustomerPriority__c</members>
         <members>Account.DandbCompanyId</members>
         <members>Account.Description</members>
-        <members>Account.Display_Name__c</members>
-        <members>Account.Do_not_Contact__c</members>
         <members>Account.DunsNumber</members>
         <members>Account.Fax</members>
         <members>Account.Industry</members>
@@ -114,9 +113,7 @@
         <members>Account.Ownership</members>
         <members>Account.ParentId</members>
         <members>Account.Phone</members>
-        <members>Account.Previous_Name__c</members>
         <members>Account.Rating</members>
-        <members>Account.Relevant_for_Sales__c</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
@@ -134,8 +131,32 @@
         <members>AccountCleanInfo.Industry</members>
         <members>AccountCleanInfo.Ownership</members>
         <members>AccountContactRole.Role</members>
+        <members>ActiveScratchOrg.Description</members>
+        <members>ActiveScratchOrg.Edition</members>
+        <members>ActiveScratchOrg.ExpirationDate</members>
+        <members>ActiveScratchOrg.Features</members>
+        <members>ActiveScratchOrg.Id</members>
+        <members>ActiveScratchOrg.LastLoginDate</members>
+        <members>ActiveScratchOrg.Name</members>
+        <members>ActiveScratchOrg.Namespace</members>
+        <members>ActiveScratchOrg.OrgName</members>
+        <members>ActiveScratchOrg.ScratchOrg</members>
+        <members>ActiveScratchOrg.ScratchOrgInfoId</members>
+        <members>ActiveScratchOrg.SignupEmail</members>
+        <members>ActiveScratchOrg.SignupInstance</members>
+        <members>ActiveScratchOrg.SignupTrialDays</members>
+        <members>ActiveScratchOrg.SignupUsername</members>
+        <members>ActiveScratchOrg.Snapshot</members>
+        <members>Address.AddressType</members>
+        <members>Address.Description</members>
+        <members>Address.DrivingDirections</members>
+        <members>Address.LocationType</members>
+        <members>Address.ParentId</members>
+        <members>Address.TimeZone</members>
         <members>AlternativePaymentMethod.AccountId</members>
         <members>AlternativePaymentMethod.AuditEmail</members>
+        <members>AlternativePaymentMethod.BankAccountHolderType</members>
+        <members>AlternativePaymentMethod.BankAccountType</members>
         <members>AlternativePaymentMethod.BillingFirstName</members>
         <members>AlternativePaymentMethod.BillingLastName</members>
         <members>AlternativePaymentMethod.BillingName</members>
@@ -155,6 +176,7 @@
         <members>AlternativePaymentMethod.PaymentMethodType</members>
         <members>AlternativePaymentMethod.Phone</members>
         <members>AlternativePaymentMethod.ProcessingMode</members>
+        <members>AlternativePaymentMethod.StandardEntryClassCode</members>
         <members>AlternativePaymentMethod.Status</members>
         <members>ApiAnomalyEventStore.EventDate</members>
         <members>ApiAnomalyEventStore.EventIdentifier</members>
@@ -170,6 +192,7 @@
         <members>ApiAnomalyEventStore.UserAgent</members>
         <members>ApiAnomalyEventStore.UserId</members>
         <members>AppointmentCategory.IsDropIn</members>
+        <members>AppointmentCategory.IsGroup</members>
         <members>AppointmentCategory.IsScheduled</members>
         <members>AppointmentCategory.Name</members>
         <members>AppointmentInvitation.AppointmentTopicId</members>
@@ -282,6 +305,7 @@
         <members>AssetStatePeriod.Mrr</members>
         <members>AssetStatePeriod.Quantity</members>
         <members>AssetStatePeriod.StartDate</members>
+        <members>AssignedResource.AssignedResourceNumber</members>
         <members>AssignedResource.EventId</members>
         <members>AssignedResource.IsRequiredResource</members>
         <members>AssignedResource.Role</members>
@@ -335,6 +359,114 @@
         <members>BuyerGroup.Description</members>
         <members>BuyerGroup.Name</members>
         <members>BuyerGroup.OwnerId</members>
+        <members>CalcMatrixColumnRange.CalculationMatrixColumnId</members>
+        <members>CalcMatrixColumnRange.CalculationMatrixVersionId</members>
+        <members>CalcMatrixColumnRange.Name</members>
+        <members>CalcMatrixColumnRange.Occurrence</members>
+        <members>CalcMatrixColumnRange.RangeStartValue</members>
+        <members>CalcProcStepRelationship.CalcProcStepId</members>
+        <members>CalcProcStepRelationship.Name</members>
+        <members>CalcProcStepRelationship.Namespace</members>
+        <members>CalcProcStepRelationship.ParentCalcProcStepId</members>
+        <members>CalcProcStepRelationship.RelationshipType</members>
+        <members>CalculationMatrix.DecisionMatrixType</members>
+        <members>CalculationMatrix.Description</members>
+        <members>CalculationMatrix.GroupKey</members>
+        <members>CalculationMatrix.MigrationStatus</members>
+        <members>CalculationMatrix.Name</members>
+        <members>CalculationMatrix.Namespace</members>
+        <members>CalculationMatrix.OwnerId</members>
+        <members>CalculationMatrix.SubGroupKey</members>
+        <members>CalculationMatrix.Type</members>
+        <members>CalculationMatrix.UniqueName</members>
+        <members>CalculationMatrix.UsageType</members>
+        <members>CalculationMatrixColumn.ApiName</members>
+        <members>CalculationMatrixColumn.CalculationMatrixId</members>
+        <members>CalculationMatrixColumn.ColumnType</members>
+        <members>CalculationMatrixColumn.DataType</members>
+        <members>CalculationMatrixColumn.DisplaySequence</members>
+        <members>CalculationMatrixColumn.IsWildcardColumn</members>
+        <members>CalculationMatrixColumn.Name</members>
+        <members>CalculationMatrixColumn.Namespace</members>
+        <members>CalculationMatrixColumn.RangeValues</members>
+        <members>CalculationMatrixColumn.WildcardColumnValue</members>
+        <members>CalculationMatrixRow.CalculationMatrixVersionId</members>
+        <members>CalculationMatrixRow.EndDateTime</members>
+        <members>CalculationMatrixRow.InputData</members>
+        <members>CalculationMatrixRow.Name</members>
+        <members>CalculationMatrixRow.Namespace</members>
+        <members>CalculationMatrixRow.OutputData</members>
+        <members>CalculationMatrixRow.StartDateTime</members>
+        <members>CalculationMatrixVersion.ApiName</members>
+        <members>CalculationMatrixVersion.CalculationMatrixId</members>
+        <members>CalculationMatrixVersion.DscnModelNoteExportStatus</members>
+        <members>CalculationMatrixVersion.EndDateTime</members>
+        <members>CalculationMatrixVersion.GroupKeyValue</members>
+        <members>CalculationMatrixVersion.IsEnabled</members>
+        <members>CalculationMatrixVersion.LoadProcessStatus</members>
+        <members>CalculationMatrixVersion.Name</members>
+        <members>CalculationMatrixVersion.Namespace</members>
+        <members>CalculationMatrixVersion.Rank</members>
+        <members>CalculationMatrixVersion.StartDateTime</members>
+        <members>CalculationMatrixVersion.SubGroupKeyValue</members>
+        <members>CalculationMatrixVersion.VersionNumber</members>
+        <members>CalculationProcedure.Description</members>
+        <members>CalculationProcedure.InputVariablesMetadata</members>
+        <members>CalculationProcedure.MigrationStatus</members>
+        <members>CalculationProcedure.Name</members>
+        <members>CalculationProcedure.Namespace</members>
+        <members>CalculationProcedure.OutputVariablesMetadata</members>
+        <members>CalculationProcedure.OwnerId</members>
+        <members>CalculationProcedure.UniqueName</members>
+        <members>CalculationProcedureStep.CalculationMatrixId</members>
+        <members>CalculationProcedureStep.CalculationProcedureVersionId</members>
+        <members>CalculationProcedureStep.ConditionsConvertedText</members>
+        <members>CalculationProcedureStep.ConditionsExpressionText</members>
+        <members>CalculationProcedureStep.ConditionsUiFormattedText</members>
+        <members>CalculationProcedureStep.DecisionTableId</members>
+        <members>CalculationProcedureStep.Description</members>
+        <members>CalculationProcedureStep.FormulaConvertedText</members>
+        <members>CalculationProcedureStep.FormulaExpressionText</members>
+        <members>CalculationProcedureStep.FormulaUiFormattedText</members>
+        <members>CalculationProcedureStep.InputVariablesFormatText</members>
+        <members>CalculationProcedureStep.IsConditionalStep</members>
+        <members>CalculationProcedureStep.IsResultIncluded</members>
+        <members>CalculationProcedureStep.Name</members>
+        <members>CalculationProcedureStep.Namespace</members>
+        <members>CalculationProcedureStep.OutputVariablesFormatText</members>
+        <members>CalculationProcedureStep.OutputVariablesMappingText</members>
+        <members>CalculationProcedureStep.ReferenceProcedureId</members>
+        <members>CalculationProcedureStep.ReturnMessageValueSet</members>
+        <members>CalculationProcedureStep.Stage</members>
+        <members>CalculationProcedureStep.StageStepSequence</members>
+        <members>CalculationProcedureStep.StepType</members>
+        <members>CalculationProcedureVariable.ApiName</members>
+        <members>CalculationProcedureVariable.CalculationMatrixName</members>
+        <members>CalculationProcedureVariable.CalculationProcedureVersionId</members>
+        <members>CalculationProcedureVariable.DataType</members>
+        <members>CalculationProcedureVariable.DefaultValue</members>
+        <members>CalculationProcedureVariable.DisplayName</members>
+        <members>CalculationProcedureVariable.IsEditable</members>
+        <members>CalculationProcedureVariable.IsUserDefined</members>
+        <members>CalculationProcedureVariable.Name</members>
+        <members>CalculationProcedureVariable.Namespace</members>
+        <members>CalculationProcedureVariable.Precision</members>
+        <members>CalculationProcedureVariable.UiDisplayOrder</members>
+        <members>CalculationProcedureVersion.CalculationProcedureId</members>
+        <members>CalculationProcedureVersion.Constants</members>
+        <members>CalculationProcedureVersion.Description</members>
+        <members>CalculationProcedureVersion.EndDateTime</members>
+        <members>CalculationProcedureVersion.IsEnabled</members>
+        <members>CalculationProcedureVersion.IsLoopingEnabled</members>
+        <members>CalculationProcedureVersion.LastSimulatedVariablesInput</members>
+        <members>CalculationProcedureVersion.LoopEnd</members>
+        <members>CalculationProcedureVersion.LoopIncrement</members>
+        <members>CalculationProcedureVersion.LoopStart</members>
+        <members>CalculationProcedureVersion.Name</members>
+        <members>CalculationProcedureVersion.Namespace</members>
+        <members>CalculationProcedureVersion.Rank</members>
+        <members>CalculationProcedureVersion.StartDateTime</members>
+        <members>CalculationProcedureVersion.VersionNumber</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
         <members>Campaign.AmountWonOpportunities</members>
@@ -452,6 +584,7 @@
         <members>CartDeliveryGroup.TotalProductAmount</members>
         <members>CartDeliveryGroup.TotalProductTaxAmount</members>
         <members>CartDeliveryGroup.TotalTaxAmount</members>
+        <members>CartDeliveryGroupMethod.AdjustedShippingFee</members>
         <members>CartDeliveryGroupMethod.Carrier</members>
         <members>CartDeliveryGroupMethod.CartCheckoutSessionId</members>
         <members>CartDeliveryGroupMethod.CartDeliveryGroupId</members>
@@ -460,11 +593,13 @@
         <members>CartDeliveryGroupMethod.ProductId</members>
         <members>CartDeliveryGroupMethod.ReferenceNumber</members>
         <members>CartDeliveryGroupMethod.ShippingFee</members>
+        <members>CartDeliveryGroupMethod.TotalAdjustmentAmount</members>
         <members>CartDeliveryGroupMethod.WebCartId</members>
         <members>CartItem.AdjustmentAmount</members>
         <members>CartItem.AdjustmentTaxAmount</members>
         <members>CartItem.CartDeliveryGroupId</members>
         <members>CartItem.CartId</members>
+        <members>CartItem.ChildProductCount</members>
         <members>CartItem.DistributedAdjustmentAmount</members>
         <members>CartItem.DistributedAdjustmentTaxAmount</members>
         <members>CartItem.GrossAdjustmentAmount</members>
@@ -475,10 +610,15 @@
         <members>CartItem.Name</members>
         <members>CartItem.NetAdjustmentAmount</members>
         <members>CartItem.NetUnitPrice</members>
+        <members>CartItem.ParentCartItemId</members>
+        <members>CartItem.PerUnitWeight</members>
         <members>CartItem.Product2Id</members>
+        <members>CartItem.ProductClass</members>
+        <members>CartItem.ProductValidationKey</members>
         <members>CartItem.Quantity</members>
         <members>CartItem.SalesPrice</members>
         <members>CartItem.Sku</members>
+        <members>CartItem.StockCheckMethod</members>
         <members>CartItem.TotalAdjustmentAmount</members>
         <members>CartItem.TotalAmount</members>
         <members>CartItem.TotalLineAmount</members>
@@ -492,8 +632,12 @@
         <members>CartItem.TotalPromoAdjustmentAmount</members>
         <members>CartItem.TotalPromoAdjustmentTaxAmount</members>
         <members>CartItem.TotalTaxAmount</members>
+        <members>CartItem.TotalWeight</members>
         <members>CartItem.UnitAdjustedPrice</members>
+        <members>CartItem.UnitAdjustedPriceWithItemAdj</members>
         <members>CartItem.UnitAdjustmentAmount</members>
+        <members>CartItem.UnitItemAdjustmentAmount</members>
+        <members>CartItem.WeightUnit</members>
         <members>CartItemPriceAdjustment.AdjustmentAmountScope</members>
         <members>CartItemPriceAdjustment.AdjustmentBasisReferenceId</members>
         <members>CartItemPriceAdjustment.AdjustmentSource</members>
@@ -615,12 +759,15 @@
         <members>ChangeRequestRelatedItem.ImpactLevel</members>
         <members>ChangeRequestRelatedItem.Name</members>
         <members>ChangeRequestRelatedItem.RelationshipType</members>
+        <members>CommSubscription.CommunicationSubscriptionCode</members>
         <members>CommSubscription.DataUsePurposeId</members>
         <members>CommSubscription.IsDefault</members>
         <members>CommSubscription.Name</members>
         <members>CommSubscription.OwnerId</members>
         <members>CommSubscriptionChannelType.CommunicationSubscriptionId</members>
         <members>CommSubscriptionChannelType.EngagementChannelTypeId</members>
+        <members>CommSubscriptionChannelType.MessagingChannelId</members>
+        <members>CommSubscriptionChannelType.MessagingChannelUsageId</members>
         <members>CommSubscriptionChannelType.Name</members>
         <members>CommSubscriptionChannelType.OwnerId</members>
         <members>CommSubscriptionConsent.BusinessBrandId</members>
@@ -644,7 +791,6 @@
         <members>CommSubscriptionTiming.PreferredTimeStart</members>
         <members>CommSubscriptionTiming.PreferredTimeZone</members>
         <members>CommSubscriptionTiming.Unit</members>
-        <members>Comp__c.Comp_Spaces__c</members>
         <members>ConsumptionRate.ConsumptionScheduleId</members>
         <members>ConsumptionRate.Description</members>
         <members>ConsumptionRate.LowerBound</members>
@@ -668,13 +814,13 @@
         <members>Contact.AssistantPhone</members>
         <members>Contact.Birthdate</members>
         <members>Contact.CleanStatus</members>
+        <members>Contact.ContactSource</members>
         <members>Contact.Department</members>
         <members>Contact.Description</members>
         <members>Contact.DoNotCall</members>
         <members>Contact.Email</members>
         <members>Contact.Fax</members>
         <members>Contact.GenderIdentity</members>
-        <members>Contact.Graduate_School__c</members>
         <members>Contact.HasOptedOutOfEmail</members>
         <members>Contact.HasOptedOutOfFax</members>
         <members>Contact.HomePhone</members>
@@ -775,6 +921,7 @@
         <members>ContactPointTypeConsent.PartyId</members>
         <members>ContactPointTypeConsent.PartyRoleId</members>
         <members>ContactPointTypeConsent.PrivacyConsentStatus</members>
+        <members>ContactRequest.IsCallback</members>
         <members>ContactRequest.OwnerId</members>
         <members>ContactRequest.PreferredChannel</members>
         <members>ContactRequest.PreferredPhone</members>
@@ -837,6 +984,8 @@
         <members>Coupon.Description</members>
         <members>Coupon.EndDateTime</members>
         <members>Coupon.PromotionId</members>
+        <members>Coupon.RedemptionLimitAllBuyers</members>
+        <members>Coupon.RedemptionLimitPerBuyer</members>
         <members>Coupon.StartDateTime</members>
         <members>Coupon.Status</members>
         <members>CredentialStuffingEventStore.AcceptLanguage</members>
@@ -913,7 +1062,6 @@
         <members>Customer.OwnerId</members>
         <members>Customer.PartyId</members>
         <members>Customer.TotalLifeTimeValue</members>
-        <members>DHRE__c.Proceeded__c</members>
         <members>DandBCompany.CompanyCurrencyIsoCode</members>
         <members>DandBCompany.CountryAccessCode</members>
         <members>DandBCompany.CurrencyCode</members>
@@ -1010,6 +1158,11 @@
         <members>DandBCompany.UsTaxId</members>
         <members>DandBCompany.WomenOwned</members>
         <members>DandBCompany.YearStarted</members>
+        <members>DataMaskCustomValueLibrary.ContentType</members>
+        <members>DataMaskCustomValueLibrary.Description</members>
+        <members>DataMaskCustomValueLibrary.IsActive</members>
+        <members>DataMaskCustomValueLibrary.Name</members>
+        <members>DataMaskCustomValueLibrary.Type</members>
         <members>DataUseLegalBasis.Description</members>
         <members>DataUseLegalBasis.Name</members>
         <members>DataUseLegalBasis.OwnerId</members>
@@ -1019,6 +1172,20 @@
         <members>DataUsePurpose.LegalBasisId</members>
         <members>DataUsePurpose.Name</members>
         <members>DataUsePurpose.OwnerId</members>
+        <members>DeliveryEstimationSetup.ChannelId</members>
+        <members>DeliveryEstimationSetup.DefaultBusinessHoursId</members>
+        <members>DeliveryEstimationSetup.DefaultPickupTime</members>
+        <members>DeliveryEstimationSetup.DefaultProcessingTime</members>
+        <members>DeliveryEstimationSetup.DefaultProcessingTimeUnit</members>
+        <members>DeliveryEstimationSetup.ExternalReference</members>
+        <members>DeliveryEstimationSetup.IsDefault</members>
+        <members>DeliveryEstimationSetup.IsEnabled</members>
+        <members>DeliveryEstimationSetup.LastSyncedById</members>
+        <members>DeliveryEstimationSetup.LastSyncedDate</members>
+        <members>DeliveryEstimationSetup.LastSyncedMessage</members>
+        <members>DeliveryEstimationSetup.LocationGroupId</members>
+        <members>DeliveryEstimationSetup.Name</members>
+        <members>DeliveryEstimationSetup.SyncStatus</members>
         <members>DigitalWallet.AccountId</members>
         <members>DigitalWallet.AuditEmail</members>
         <members>DigitalWallet.Comments</members>
@@ -1043,6 +1210,7 @@
         <members>DuplicateRecordItem.RecordId</members>
         <members>DuplicateRecordSet.DuplicateRuleId</members>
         <members>DuplicateRecordSet.RecordCount</members>
+        <members>EmailMessage.AutomationType</members>
         <members>EmailMessage.BccAddress</members>
         <members>EmailMessage.CcAddress</members>
         <members>EmailMessage.FirstOpenedDate</members>
@@ -1136,6 +1304,26 @@
         <members>Event.Type</members>
         <members>Event.WhatId</members>
         <members>Event.WhoId</members>
+        <members>ExpressionSet.ApiName</members>
+        <members>ExpressionSet.Description</members>
+        <members>ExpressionSet.Name</members>
+        <members>ExpressionSet.OwnerId</members>
+        <members>ExpressionSet.UsageType</members>
+        <members>ExpressionSetVersion.ApiName</members>
+        <members>ExpressionSetVersion.Description</members>
+        <members>ExpressionSetVersion.EndDateTime</members>
+        <members>ExpressionSetVersion.ExpressionSetId</members>
+        <members>ExpressionSetVersion.IsActive</members>
+        <members>ExpressionSetVersion.IsLoopingEnabled</members>
+        <members>ExpressionSetVersion.LatestSimulationResult</members>
+        <members>ExpressionSetVersion.LoopEndVariableName</members>
+        <members>ExpressionSetVersion.LoopIncrementVariableName</members>
+        <members>ExpressionSetVersion.LoopStartVariableName</members>
+        <members>ExpressionSetVersion.Name</members>
+        <members>ExpressionSetVersion.Rank</members>
+        <members>ExpressionSetVersion.ShouldShowExplExternally</members>
+        <members>ExpressionSetVersion.StartDateTime</members>
+        <members>ExpressionSetVersion.VersionNumber</members>
         <members>FinanceBalanceSnapshot.AccountId</members>
         <members>FinanceBalanceSnapshot.AdjustmentAmount</members>
         <members>FinanceBalanceSnapshot.Balance</members>
@@ -1211,6 +1399,19 @@
         <members>FlowOrchestrationInstance.OrchestrationDeveloperName</members>
         <members>FlowOrchestrationInstance.OwnerId</members>
         <members>FlowOrchestrationInstance.Status</members>
+        <members>FlowOrchestrationLog.Actor</members>
+        <members>FlowOrchestrationLog.Assignee</members>
+        <members>FlowOrchestrationLog.AssigneeType</members>
+        <members>FlowOrchestrationLog.Comments</members>
+        <members>FlowOrchestrationLog.Context</members>
+        <members>FlowOrchestrationLog.Duration</members>
+        <members>FlowOrchestrationLog.Kind</members>
+        <members>FlowOrchestrationLog.OrchestrationInstanceId</members>
+        <members>FlowOrchestrationLog.OrchestrationName</members>
+        <members>FlowOrchestrationLog.OrchestrationVersion</members>
+        <members>FlowOrchestrationLog.StageName</members>
+        <members>FlowOrchestrationLog.StepName</members>
+        <members>FlowOrchestrationLog.Timestamp</members>
         <members>FlowOrchestrationStageInstance.Label</members>
         <members>FlowOrchestrationStageInstance.OrchestrationInstanceId</members>
         <members>FlowOrchestrationStageInstance.Status</members>
@@ -1226,6 +1427,85 @@
         <members>FlowOrchestrationWorkItem.ScreenFlow</members>
         <members>FlowOrchestrationWorkItem.Status</members>
         <members>FlowOrchestrationWorkItem.StepInstanceId</members>
+        <members>FulfillmentOrder.AccountId</members>
+        <members>FulfillmentOrder.ActivatedDate</members>
+        <members>FulfillmentOrder.BillToContactId</members>
+        <members>FulfillmentOrder.ClosedDate</members>
+        <members>FulfillmentOrder.FulfilledFromLocationId</members>
+        <members>FulfillmentOrder.FulfilledToEmailAddress</members>
+        <members>FulfillmentOrder.FulfilledToName</members>
+        <members>FulfillmentOrder.FulfilledToPhone</members>
+        <members>FulfillmentOrder.GrandTotalAmount</members>
+        <members>FulfillmentOrder.InvoiceId</members>
+        <members>FulfillmentOrder.IsReship</members>
+        <members>FulfillmentOrder.IsSuspended</members>
+        <members>FulfillmentOrder.ItemCount</members>
+        <members>FulfillmentOrder.Status</members>
+        <members>FulfillmentOrder.TaxLocaleType</members>
+        <members>FulfillmentOrder.TotalAdjustmentAmount</members>
+        <members>FulfillmentOrder.TotalAdjustmentAmtWithTax</members>
+        <members>FulfillmentOrder.TotalAdjustmentTaxAmount</members>
+        <members>FulfillmentOrder.TotalAmount</members>
+        <members>FulfillmentOrder.TotalDeliveryAdjustAmount</members>
+        <members>FulfillmentOrder.TotalDeliveryAdjustAmtWithTax</members>
+        <members>FulfillmentOrder.TotalDeliveryAdjustTaxAmount</members>
+        <members>FulfillmentOrder.TotalDeliveryAmount</members>
+        <members>FulfillmentOrder.TotalDeliveryAmtWithTax</members>
+        <members>FulfillmentOrder.TotalDeliveryTaxAmount</members>
+        <members>FulfillmentOrder.TotalProductAmount</members>
+        <members>FulfillmentOrder.TotalProductAmtWithTax</members>
+        <members>FulfillmentOrder.TotalProductTaxAmount</members>
+        <members>FulfillmentOrder.TotalTaxAmount</members>
+        <members>FulfillmentOrder.Type</members>
+        <members>FulfillmentOrderItemAdjustment.Amount</members>
+        <members>FulfillmentOrderItemAdjustment.CampaignName</members>
+        <members>FulfillmentOrderItemAdjustment.CouponName</members>
+        <members>FulfillmentOrderItemAdjustment.Description</members>
+        <members>FulfillmentOrderItemAdjustment.FulfillmentOrderLineItemId</members>
+        <members>FulfillmentOrderItemAdjustment.PromotionName</members>
+        <members>FulfillmentOrderItemAdjustment.TotalAmtWithTax</members>
+        <members>FulfillmentOrderItemAdjustment.TotalTaxAmount</members>
+        <members>FulfillmentOrderItemTax.Amount</members>
+        <members>FulfillmentOrderItemTax.Description</members>
+        <members>FulfillmentOrderItemTax.FulfillmentOrderItemAdjustId</members>
+        <members>FulfillmentOrderItemTax.Rate</members>
+        <members>FulfillmentOrderItemTax.TaxEffectiveDate</members>
+        <members>FulfillmentOrderItemTax.Type</members>
+        <members>FulfillmentOrderLineItem.Description</members>
+        <members>FulfillmentOrderLineItem.EndDate</members>
+        <members>FulfillmentOrderLineItem.FulfillmentOrderId</members>
+        <members>FulfillmentOrderLineItem.GrossUnitPrice</members>
+        <members>FulfillmentOrderLineItem.IsReship</members>
+        <members>FulfillmentOrderLineItem.OrderItemId</members>
+        <members>FulfillmentOrderLineItem.OriginalQuantity</members>
+        <members>FulfillmentOrderLineItem.Product2Id</members>
+        <members>FulfillmentOrderLineItem.Quantity</members>
+        <members>FulfillmentOrderLineItem.QuantityUnitOfMeasure</members>
+        <members>FulfillmentOrderLineItem.RejectReason</members>
+        <members>FulfillmentOrderLineItem.RejectedQuantity</members>
+        <members>FulfillmentOrderLineItem.ReshipReason</members>
+        <members>FulfillmentOrderLineItem.ServiceDate</members>
+        <members>FulfillmentOrderLineItem.TotalAdjustmentAmount</members>
+        <members>FulfillmentOrderLineItem.TotalAdjustmentAmountWithTax</members>
+        <members>FulfillmentOrderLineItem.TotalAdjustmentTaxAmount</members>
+        <members>FulfillmentOrderLineItem.TotalAmount</members>
+        <members>FulfillmentOrderLineItem.TotalLineAmount</members>
+        <members>FulfillmentOrderLineItem.TotalLineAmountWithTax</members>
+        <members>FulfillmentOrderLineItem.TotalLineTaxAmount</members>
+        <members>FulfillmentOrderLineItem.TotalPrice</members>
+        <members>FulfillmentOrderLineItem.TotalTaxAmount</members>
+        <members>FulfillmentOrderLineItem.UnitPrice</members>
+        <members>GuestUserAnomalyEventStore.EventDate</members>
+        <members>GuestUserAnomalyEventStore.EventIdentifier</members>
+        <members>GuestUserAnomalyEventStore.RequestedEntities</members>
+        <members>GuestUserAnomalyEventStore.Score</members>
+        <members>GuestUserAnomalyEventStore.SoqlCommands</members>
+        <members>GuestUserAnomalyEventStore.SourceIp</members>
+        <members>GuestUserAnomalyEventStore.Summary</members>
+        <members>GuestUserAnomalyEventStore.TotalControllerEvents</members>
+        <members>GuestUserAnomalyEventStore.UserAgent</members>
+        <members>GuestUserAnomalyEventStore.UserId</members>
+        <members>GuestUserAnomalyEventStore.UserType</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Image.AlternateText</members>
@@ -1317,7 +1597,9 @@
         <members>Invoice.Description</members>
         <members>Invoice.DueDate</members>
         <members>Invoice.InvoiceDate</members>
+        <members>Invoice.InvoiceLockedDateTime</members>
         <members>Invoice.InvoiceNumber</members>
+        <members>Invoice.IsInvoiceLocked</members>
         <members>Invoice.NetCreditsApplied</members>
         <members>Invoice.NetPaymentsApplied</members>
         <members>Invoice.OwnerId</members>
@@ -1392,6 +1674,13 @@
         <members>Lead.Title</members>
         <members>Lead.Website</members>
         <members>LeadCleanInfo.Industry</members>
+        <members>LearningItem.AssignedCount</members>
+        <members>LearningItem.CompletedCount</members>
+        <members>LearningItem.LearningContentId</members>
+        <members>LearningItem.LearningLinkId</members>
+        <members>LearningItem.Name</members>
+        <members>LearningItem.OwnerId</members>
+        <members>LearningItem.Type</members>
         <members>LegalEntity.CompanyName</members>
         <members>LegalEntity.Description</members>
         <members>LegalEntity.LegalEntityAddress</members>
@@ -1401,9 +1690,13 @@
         <members>Location.CloseDate</members>
         <members>Location.ConstructionEndDate</members>
         <members>Location.ConstructionStartDate</members>
+        <members>Location.DefaultPickupTime</members>
+        <members>Location.DefaultProcessingTime</members>
+        <members>Location.DefaultProcessingTimeUnit</members>
         <members>Location.Description</members>
         <members>Location.DrivingDirections</members>
         <members>Location.ExternalReference</members>
+        <members>Location.FulfillingBusinessHoursId</members>
         <members>Location.IsInventoryLocation</members>
         <members>Location.IsMobile</members>
         <members>Location.Location</members>
@@ -1420,6 +1713,7 @@
         <members>Location.RootLocationId</members>
         <members>Location.ShouldSyncWithOci</members>
         <members>Location.TimeZone</members>
+        <members>Location.VisitorAddressId</members>
         <members>LocationGroup.Description</members>
         <members>LocationGroup.ExternalReference</members>
         <members>LocationGroup.IsEnabled</members>
@@ -1428,6 +1722,8 @@
         <members>LocationGroup.ShouldSyncWithOci</members>
         <members>LocationGroupAssignment.LocationGroupId</members>
         <members>LocationGroupAssignment.LocationId</members>
+        <members>LocationShippingCarrierMethod.LocationSourceId</members>
+        <members>LocationShippingCarrierMethod.ShippingCarrierMethodId</members>
         <members>Macro.Description</members>
         <members>Macro.IsAlohaSupported</members>
         <members>Macro.IsLightningSupported</members>
@@ -1457,7 +1753,10 @@
         <members>MessagingSession.EndTime</members>
         <members>MessagingSession.EndUserAccountId</members>
         <members>MessagingSession.EndUserContactId</members>
+        <members>MessagingSession.EndUserLanguage</members>
         <members>MessagingSession.EndUserMessageCount</members>
+        <members>MessagingSession.EndedByType</members>
+        <members>MessagingSession.ErrorReason</members>
         <members>MessagingSession.LeadId</members>
         <members>MessagingSession.MessagingChannelId</members>
         <members>MessagingSession.MessagingEndUserId</members>
@@ -1467,15 +1766,16 @@
         <members>MessagingSession.PreviewDetails</members>
         <members>MessagingSession.StartTime</members>
         <members>MessagingSession.Status</members>
+        <members>NamespaceRegistry.NamespacePrefix</members>
         <members>OperatingHours.Description</members>
         <members>OperatingHours.Name</members>
+        <members>OperatingHours.OwnerId</members>
         <members>OperatingHours.TimeZone</members>
         <members>OperatingHoursHoliday.DateAndTime</members>
         <members>OperatingHoursHoliday.HolidayId</members>
         <members>OperatingHoursHoliday.OperatingHoursId</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
-        <members>Opportunity.AutorabitExtId__c</members>
         <members>Opportunity.CampaignId</members>
         <members>Opportunity.CloseDate</members>
         <members>Opportunity.ContractId</members>
@@ -1554,6 +1854,7 @@
         <members>OrderItem.ProductCode</members>
         <members>OrderItem.Quantity</members>
         <members>OrderItem.ServiceDate</members>
+        <members>OrderItem.SubscriptionTerm</members>
         <members>OrderItem.TotalPrice</members>
         <members>OrderItem.UnitPrice</members>
         <members>OrgMetricScanResult.ItemStatus</members>
@@ -1696,6 +1997,10 @@
         <members>PricebookEntry.StandardPrice</members>
         <members>PricebookEntry.UnitPrice</members>
         <members>PricebookEntry.UseStandardPrice</members>
+        <members>PrivacyRTBFRequest.JobRecord</members>
+        <members>PrivacyRTBFRequest.OwnerId</members>
+        <members>PrivacyRTBFRequest.PolicyNameId</members>
+        <members>PrivacyRTBFRequest.Status</members>
         <members>Problem.Category</members>
         <members>Problem.Description</members>
         <members>Problem.Impact</members>
@@ -1776,6 +2081,7 @@
         <members>Promotion.IsActive</members>
         <members>Promotion.IsAutomatic</members>
         <members>Promotion.IsCommercePromotion</members>
+        <members>Promotion.IsQualCriteriaNotRequiredPerApplication</members>
         <members>Promotion.IsTiered</members>
         <members>Promotion.MaximumUsageCount</members>
         <members>Promotion.Name</members>
@@ -1786,6 +2092,13 @@
         <members>Promotion.StartDateTime</members>
         <members>Promotion.TargetCriteria</members>
         <members>Promotion.TermsAndConditions</members>
+        <members>PromotionLineItemRule.AssociatedReferenceId</members>
+        <members>PromotionLineItemRule.AssociatedType</members>
+        <members>PromotionLineItemRule.OperatorType</members>
+        <members>PromotionLineItemRule.OwnerId</members>
+        <members>PromotionLineItemRule.Type</members>
+        <members>PromotionLineItemRule.TypeReferenceId</members>
+        <members>PromotionLineItemRule.TypeValue</members>
         <members>PromotionMarketSegment.PromotionId</members>
         <members>PromotionMarketSegment.PromotionSegmentId</members>
         <members>PromotionQualifier.MinimumAmount</members>
@@ -1794,6 +2107,7 @@
         <members>PromotionQualifier.PromotionId</members>
         <members>PromotionQualifier.PromotionTierId</members>
         <members>PromotionQualifier.QualifierId</members>
+        <members>PromotionQualifier.QualifierOperator</members>
         <members>PromotionQualifier.QualifierProductCategoryName</members>
         <members>PromotionQualifier.QualifierProductName</members>
         <members>PromotionQualifier.QualifierProductSku</members>
@@ -1813,6 +2127,7 @@
         <members>PromotionTarget.RestrictionQuantity</members>
         <members>PromotionTarget.RestrictionType</members>
         <members>PromotionTarget.TargetId</members>
+        <members>PromotionTarget.TargetOperator</members>
         <members>PromotionTarget.TargetProductCategoryName</members>
         <members>PromotionTarget.TargetProductName</members>
         <members>PromotionTarget.TargetProductSku</members>
@@ -2022,6 +2337,36 @@
         <members>ScorecardMetric.Name</members>
         <members>ScorecardMetric.ReportId</members>
         <members>ScorecardMetric.ScorecardId</members>
+        <members>ScratchOrgInfo.AdminEmail</members>
+        <members>ScratchOrgInfo.AuthCode</members>
+        <members>ScratchOrgInfo.ConnectedAppCallbackUrl</members>
+        <members>ScratchOrgInfo.ConnectedAppConsumerKey</members>
+        <members>ScratchOrgInfo.Country</members>
+        <members>ScratchOrgInfo.DeletedBy</members>
+        <members>ScratchOrgInfo.DeletedDate</members>
+        <members>ScratchOrgInfo.Description</members>
+        <members>ScratchOrgInfo.Edition</members>
+        <members>ScratchOrgInfo.ErrorCode</members>
+        <members>ScratchOrgInfo.ExpirationDate</members>
+        <members>ScratchOrgInfo.Features</members>
+        <members>ScratchOrgInfo.Instance</members>
+        <members>ScratchOrgInfo.Language</members>
+        <members>ScratchOrgInfo.LastLoginDate</members>
+        <members>ScratchOrgInfo.Name</members>
+        <members>ScratchOrgInfo.Namespace</members>
+        <members>ScratchOrgInfo.OrgName</members>
+        <members>ScratchOrgInfo.Package2AncestorIds</members>
+        <members>ScratchOrgInfo.Release</members>
+        <members>ScratchOrgInfo.ScratchOrg</members>
+        <members>ScratchOrgInfo.SignupCountry</members>
+        <members>ScratchOrgInfo.SignupEmail</members>
+        <members>ScratchOrgInfo.SignupInstance</members>
+        <members>ScratchOrgInfo.SignupLanguage</members>
+        <members>ScratchOrgInfo.SignupTrialDays</members>
+        <members>ScratchOrgInfo.SignupUsername</members>
+        <members>ScratchOrgInfo.SourceOrg</members>
+        <members>ScratchOrgInfo.Status</members>
+        <members>ScratchOrgInfo.Username</members>
         <members>Seller.ActiveFromDate</members>
         <members>Seller.ActiveToDate</members>
         <members>Seller.Name</members>
@@ -2038,11 +2383,15 @@
         <members>ServiceAppointment.Address</members>
         <members>ServiceAppointment.AppointmentCategoryId</members>
         <members>ServiceAppointment.AppointmentInvitationId</members>
+        <members>ServiceAppointment.AppointmentMode</members>
         <members>ServiceAppointment.AppointmentType</members>
         <members>ServiceAppointment.ApptBookingInfoUrl</members>
         <members>ServiceAppointment.ArrivalWindowEndTime</members>
         <members>ServiceAppointment.ArrivalWindowStartTime</members>
+        <members>ServiceAppointment.AttendeeCount</members>
+        <members>ServiceAppointment.AttendeeLimit</members>
         <members>ServiceAppointment.CancellationReason</members>
+        <members>ServiceAppointment.CheckedInTime</members>
         <members>ServiceAppointment.Comments</members>
         <members>ServiceAppointment.ContactId</members>
         <members>ServiceAppointment.Description</members>
@@ -2052,6 +2401,7 @@
         <members>ServiceAppointment.EarliestStartTime</members>
         <members>ServiceAppointment.Email</members>
         <members>ServiceAppointment.EngagementChannelTypeId</members>
+        <members>ServiceAppointment.GroupAppointmentAccessType</members>
         <members>ServiceAppointment.IsAnonymousBooking</members>
         <members>ServiceAppointment.IsOffsiteAppointment</members>
         <members>ServiceAppointment.OwnerId</members>
@@ -2066,7 +2416,13 @@
         <members>ServiceAppointment.Status</members>
         <members>ServiceAppointment.StatusCategory</members>
         <members>ServiceAppointment.Subject</members>
+        <members>ServiceAppointment.Transaction</members>
         <members>ServiceAppointment.WorkTypeId</members>
+        <members>ServiceAppointmentAttendee.AttendeeId</members>
+        <members>ServiceAppointmentAttendee.Email</members>
+        <members>ServiceAppointmentAttendee.HasAttended</members>
+        <members>ServiceAppointmentAttendee.ServiceAppointmentId</members>
+        <members>ServiceAppointmentAttendee.Status</members>
         <members>ServiceContract.AccountId</members>
         <members>ServiceContract.ActivationDate</members>
         <members>ServiceContract.AdditionalDiscount</members>
@@ -2114,6 +2470,8 @@
         <members>ServiceTerritory.OperatingHoursId</members>
         <members>ServiceTerritory.OwnerId</members>
         <members>ServiceTerritory.ParentTerritoryId</members>
+        <members>ServiceTerritory.SelfCheckInUrl</members>
+        <members>ServiceTerritory.ServiceAppointmentLimitType</members>
         <members>ServiceTerritory.TopLevelTerritoryId</members>
         <members>ServiceTerritory.TypicalInTerritoryTravelTime</members>
         <members>ServiceTerritoryMember.Address</members>
@@ -2143,6 +2501,7 @@
         <members>SessionHijackingEventStore.SourceIp</members>
         <members>SessionHijackingEventStore.Summary</members>
         <members>SessionHijackingEventStore.UserId</members>
+        <members>Shift.AppointmentCategoryId</members>
         <members>Shift.BackgroundColor</members>
         <members>Shift.EndTime</members>
         <members>Shift.Label</members>
@@ -2163,9 +2522,48 @@
         <members>ShiftEngagementChannel.EngagementChannelTypeId</members>
         <members>ShiftEngagementChannel.ShiftId</members>
         <members>ShiftWorkTopic.AreAllTopicsSupported</members>
+        <members>ShiftWorkTopic.AttendeeLimit</members>
+        <members>ShiftWorkTopic.MaxAppointments</members>
+        <members>ShiftWorkTopic.ServiceAppointmentLimit</members>
         <members>ShiftWorkTopic.ShiftId</members>
         <members>ShiftWorkTopic.WorkTypeGroupId</members>
         <members>ShiftWorkTopic.WorkTypeId</members>
+        <members>Shipment.ActualDeliveryDate</members>
+        <members>Shipment.DeliveredToId</members>
+        <members>Shipment.Description</members>
+        <members>Shipment.DestinationLocationId</members>
+        <members>Shipment.ExpectedDeliveryDate</members>
+        <members>Shipment.FulfillmentOrderId</members>
+        <members>Shipment.OwnerId</members>
+        <members>Shipment.Provider</members>
+        <members>Shipment.ReturnOrderId</members>
+        <members>Shipment.ShipFromAddress</members>
+        <members>Shipment.ShipToAddress</members>
+        <members>Shipment.ShipToName</members>
+        <members>Shipment.SourceLocationId</members>
+        <members>Shipment.Status</members>
+        <members>Shipment.TotalItemsQuantity</members>
+        <members>Shipment.TrackingNumber</members>
+        <members>Shipment.TrackingUrl</members>
+        <members>ShipmentItem.Description</members>
+        <members>ShipmentItem.ExpectedDeliveryDate</members>
+        <members>ShipmentItem.FulfillmentOrderLineItemId</members>
+        <members>ShipmentItem.Product2Id</members>
+        <members>ShipmentItem.Quantity</members>
+        <members>ShipmentItem.ReturnOrderLineItemId</members>
+        <members>ShipmentItem.ShipmentId</members>
+        <members>ShipmentItem.ShipmentItemNumber</members>
+        <members>ShipmentItem.TrackingNumber</members>
+        <members>ShipmentItem.TrackingUrl</members>
+        <members>ShippingCarrier.ExternalReference</members>
+        <members>ShippingCarrier.Name</members>
+        <members>ShippingCarrierMethod.ExternalReference</members>
+        <members>ShippingCarrierMethod.MaxTransitTime</members>
+        <members>ShippingCarrierMethod.MinTransitTime</members>
+        <members>ShippingCarrierMethod.Name</members>
+        <members>ShippingCarrierMethod.ShippingAreaType</members>
+        <members>ShippingCarrierMethod.ShippingCarrierId</members>
+        <members>ShippingCarrierMethod.TransitTimeUnit</members>
         <members>SkillRequirement.RelatedRecordId</members>
         <members>SkillRequirement.SkillId</members>
         <members>SkillRequirement.SkillLevel</members>
@@ -2184,6 +2582,7 @@
         <members>StreamActivityAccess.ActivityTeamId</members>
         <members>StreamActivityAccess.ExternalResource</members>
         <members>StreamActivityAccess.IsContentShared</members>
+        <members>StreamActivityAccess.Name</members>
         <members>StreamActivityAccess.OwnerId</members>
         <members>Task.ActivityDate</members>
         <members>Task.CallDisposition</members>
@@ -2211,6 +2610,7 @@
         <members>TimeSlot.MaxAppointments</members>
         <members>TimeSlot.OperatingHoursId</members>
         <members>TimeSlot.StartTime</members>
+        <members>TimeSlot.TimeSlotNumber</members>
         <members>TimeSlot.Type</members>
         <members>TimeSlot.WorkTypeGroupId</members>
         <members>User.ManagerId</members>
@@ -2235,6 +2635,7 @@
         <members>VoiceCall.CallQueuedDateTime</members>
         <members>VoiceCall.CallResolution</members>
         <members>VoiceCall.CallStartDateTime</members>
+        <members>VoiceCall.CallSubtype</members>
         <members>VoiceCall.CallType</members>
         <members>VoiceCall.CallerId</members>
         <members>VoiceCall.CustomerHoldDuration</members>
@@ -2257,8 +2658,10 @@
         <members>VoiceCall.VendorCallKey</members>
         <members>Waitlist.Description</members>
         <members>Waitlist.IsActive</members>
+        <members>Waitlist.Link</members>
         <members>Waitlist.Name</members>
         <members>Waitlist.ServiceTerritoryId</members>
+        <members>Waitlist.ShouldAllowSelfCheckIn</members>
         <members>WaitlistParticipant.AcceptanceTime</members>
         <members>WaitlistParticipant.Description</members>
         <members>WaitlistParticipant.ParticipantId</members>
@@ -2291,12 +2694,15 @@
         <members>WebCart.TotalAdjustmentAmount</members>
         <members>WebCart.TotalAmount</members>
         <members>WebCart.TotalAmountAfterAllAdjustments</members>
+        <members>WebCart.TotalCartLevelAdjAmount</members>
         <members>WebCart.TotalChargeAmount</members>
         <members>WebCart.TotalChargeTaxAmount</members>
         <members>WebCart.TotalLineItemsWithErrors</members>
         <members>WebCart.TotalListAmount</members>
         <members>WebCart.TotalProductAmount</members>
         <members>WebCart.TotalProductCount</members>
+        <members>WebCart.TotalProductItemAdjAmount</members>
+        <members>WebCart.TotalProductLineItemCount</members>
         <members>WebCart.TotalProductListAmount</members>
         <members>WebCart.TotalProductTaxAmount</members>
         <members>WebCart.TotalPromoAdjustmentAmount</members>
@@ -2450,6 +2856,7 @@
         <members>WorkStepTemplate.OwnerId</members>
         <members>WorkType.AppointmentCategoryId</members>
         <members>WorkType.ApptStartTimeIntvlInMin</members>
+        <members>WorkType.AttendeeLimit</members>
         <members>WorkType.BlockTimeAfterAppointment</members>
         <members>WorkType.BlockTimeAfterUnit</members>
         <members>WorkType.BlockTimeBeforeAppointment</members>
@@ -2479,7 +2886,14 @@
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
+        <members>ActiveScratchOrg</members>
         <members>Activity</members>
+        <members>Address</members>
+        <members>AiEvalCopilotTestCaseRslt</members>
+        <members>AiEvalTestCaseCritRslt</members>
+        <members>AiEvalTestCaseResult</members>
+        <members>AiEvaluation</members>
+        <members>AiPromptBuilderGenResult</members>
         <members>AlternativePaymentMethod</members>
         <members>ApiAnomalyEventStore</members>
         <members>AppointmentCategory</members>
@@ -2495,6 +2909,7 @@
         <members>AssignedResource</members>
         <members>AssistantProgress</members>
         <members>AssociatedLocation</members>
+        <members>AsyncOperationTracker</members>
         <members>AuthorizationForm</members>
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
@@ -2502,6 +2917,16 @@
         <members>Broker__c</members>
         <members>BusinessBrand</members>
         <members>BuyerGroup</members>
+        <members>CalcMatrixColumnRange</members>
+        <members>CalcProcStepRelationship</members>
+        <members>CalculationMatrix</members>
+        <members>CalculationMatrixColumn</members>
+        <members>CalculationMatrixRow</members>
+        <members>CalculationMatrixVersion</members>
+        <members>CalculationProcedure</members>
+        <members>CalculationProcedureStep</members>
+        <members>CalculationProcedureVariable</members>
+        <members>CalculationProcedureVersion</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>CardPaymentMethod</members>
@@ -2527,7 +2952,6 @@
         <members>CommSubscriptionChannelType</members>
         <members>CommSubscriptionConsent</members>
         <members>CommSubscriptionTiming</members>
-        <members>Comp__c</members>
         <members>ConsumptionRate</members>
         <members>ConsumptionSchedule</members>
         <members>Contact</members>
@@ -2543,15 +2967,19 @@
         <members>ContractContactRole</members>
         <members>ContractLineItem</members>
         <members>Coupon</members>
+        <members>CouponCodeRedemption</members>
         <members>CredentialStuffingEventStore</members>
         <members>CreditMemo</members>
         <members>CreditMemoInvApplication</members>
         <members>CreditMemoLine</members>
         <members>Customer</members>
-        <members>DHRE__c</members>
+        <members>DTRecordsetReplica</members>
         <members>DandBCompany</members>
+        <members>DataMaskCustomValueLibrary</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
+        <members>DecisionTblFileImportData</members>
+        <members>DeliveryEstimationSetup</members>
         <members>DigitalWallet</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
@@ -2565,14 +2993,22 @@
         <members>ExchangeUserMapping</members>
         <members>ExpressionFilter</members>
         <members>ExpressionFilterCriteria</members>
+        <members>ExpressionSet</members>
+        <members>ExpressionSetVersion</members>
         <members>ExternalEventMapping</members>
         <members>FeedItem</members>
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
         <members>FlowOrchestrationInstance</members>
+        <members>FlowOrchestrationLog</members>
         <members>FlowOrchestrationStageInstance</members>
         <members>FlowOrchestrationStepInstance</members>
         <members>FlowOrchestrationWorkItem</members>
+        <members>FulfillmentOrder</members>
+        <members>FulfillmentOrderItemAdjustment</members>
+        <members>FulfillmentOrderItemTax</members>
+        <members>FulfillmentOrderLineItem</members>
+        <members>GuestUserAnomalyEventStore</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Incident</members>
@@ -2586,11 +3022,13 @@
         <members>LeadCleanInfo</members>
         <members>LearningAssignment</members>
         <members>LearningAssignmentProgress</members>
+        <members>LearningItem</members>
         <members>LearningLinkProgress</members>
         <members>LegalEntity</members>
         <members>Location</members>
         <members>LocationGroup</members>
         <members>LocationGroupAssignment</members>
+        <members>LocationShippingCarrierMethod</members>
         <members>MLModel</members>
         <members>MLModelFactor</members>
         <members>MLModelFactorComponent</members>
@@ -2600,6 +3038,7 @@
         <members>MacroUsage</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
+        <members>NamespaceRegistry</members>
         <members>OperatingHours</members>
         <members>OperatingHoursHoliday</members>
         <members>Opportunity</members>
@@ -2623,6 +3062,7 @@
         <members>PaymentMethod</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
+        <members>PrivacyRTBFRequest</members>
         <members>Problem</members>
         <members>ProblemIncident</members>
         <members>ProblemRelatedItem</members>
@@ -2635,6 +3075,7 @@
         <members>ProductCategoryProduct</members>
         <members>ProductConsumptionSchedule</members>
         <members>Promotion</members>
+        <members>PromotionLineItemRule</members>
         <members>PromotionMarketSegment</members>
         <members>PromotionQualifier</members>
         <members>PromotionSegment</members>
@@ -2647,7 +3088,6 @@
         <members>Property__c</members>
         <members>QuickText</members>
         <members>QuickTextUsage</members>
-        <members>Ravi__c</members>
         <members>Recommendation</members>
         <members>RecordAction</members>
         <members>RecordMergeHistory</members>
@@ -2660,12 +3100,16 @@
         <members>ReturnOrderItemAdjustment</members>
         <members>ReturnOrderItemTax</members>
         <members>ReturnOrderLineItem</members>
+        <members>RevenueAsyncOperation</members>
+        <members>RevenueTransactionErrorLog</members>
         <members>SalesStore</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
+        <members>ScratchOrgInfo</members>
         <members>Seller</members>
         <members>ServiceAppointment</members>
+        <members>ServiceAppointmentAttendee</members>
         <members>ServiceContract</members>
         <members>ServiceResource</members>
         <members>ServiceResourceSkill</members>
@@ -2676,10 +3120,18 @@
         <members>Shift</members>
         <members>ShiftEngagementChannel</members>
         <members>ShiftWorkTopic</members>
+        <members>Shipment</members>
+        <members>ShipmentItem</members>
+        <members>ShippingCarrier</members>
+        <members>ShippingCarrierMethod</members>
+        <members>ShippingConfigurationSet</members>
+        <members>ShippingRateArea</members>
+        <members>ShippingRateGroup</members>
         <members>Site</members>
         <members>SkillRequirement</members>
         <members>SocialPersona</members>
         <members>Solution</members>
+        <members>StandardShippingRate</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
         <members>TableauHostMapping</members>
@@ -2689,6 +3141,7 @@
         <members>TopicAssignment</members>
         <members>User</members>
         <members>UserExternalCredential</members>
+        <members>UserLocalWebServerIdentity</members>
         <members>UserPrioritizedRecord</members>
         <members>UserProvisioningRequest</members>
         <members>VoiceCall</members>
@@ -2718,7 +3171,6 @@
     <types>
         <members>Broker__c-en_US</members>
         <members>Property__c-en_US</members>
-        <members>Ravi__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
@@ -2742,6 +3194,10 @@
         <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
         <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
         <members>unfiled$public/SalesNewCustomerEmail</members>
+        <members>unfiled$public/SalesforceSchedulerCancelApptEmailTemplate</members>
+        <members>unfiled$public/SalesforceSchedulerCreateApptEmailTemplate</members>
+        <members>unfiled$public/SalesforceSchedulerGroupApptEmailTemplate</members>
+        <members>unfiled$public/SalesforceSchedulerModifyApptEmailTemplate</members>
         <members>unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForAmazonChime</members>
         <members>unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForThirdParty</members>
         <members>unfiled$public/SchedulerUnauthenticatedUserEngagementChannelEmailTemplateForAmazonChime</members>
@@ -2768,6 +3224,8 @@
         <members>Broker_Record_Page</members>
         <members>ContactCenter_UtilityBar</members>
         <members>CrisisCenter_UtilityBar</members>
+        <members>ExpressionSetConsole_UtilityBar</members>
+        <members>FlowsApp_UtilityBar</members>
         <members>LightningSalesConsole_UtilityBar</members>
         <members>LightningSales_UtilityBar</members>
         <members>LightningService_UtilityBar</members>
@@ -2775,15 +3233,12 @@
         <members>Property_Finder</members>
         <members>Property_Record_Page</members>
         <members>RevenueCloudConsole_UtilityBar</members>
+        <members>SalesCloudMobile_UtilityBar</members>
         <members>Settings</members>
         <name>FlexiPage</name>
     </types>
     <types>
         <members>Create_property</members>
-        <members>FlowTest</members>
-        <members>SecondFlow</members>
-        <members>Waitlist2</members>
-        <members>X3rdFlow</members>
         <name>Flow</name>
     </types>
     <types>
@@ -2812,12 +3267,24 @@
         <members>AssetRelationship-Asset Relationship Layout</members>
         <members>AssetStatePeriod-Asset State Period Layout</members>
         <members>AssignedResource-Assigned Resource Layout</members>
+        <members>AssociatedLocation-Associated Location Layout</members>
+        <members>AsyncOperationLog-Async Operation Log Layout</members>
         <members>AuthorizationForm-Authorization Form Layout</members>
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
         <members>Broker__c-Broker Layout</members>
         <members>BusinessBrand-Business Brand Layout</members>
+        <members>CalcMatrixColumnRange-Decision Matrix Column Range Layout</members>
+        <members>CalcProcStepRelationship-Expression Set Step Relationship Layout</members>
+        <members>CalculationMatrix-Decision Matrix Layout</members>
+        <members>CalculationMatrixColumn-Decision Matrix Column Layout</members>
+        <members>CalculationMatrixRow-Decision Matrix Row Layout</members>
+        <members>CalculationMatrixVersion-Decision Matrix Version Layout</members>
+        <members>CalculationProcedure-Calculation Procedure Layout</members>
+        <members>CalculationProcedureStep-Calculation Procedure Step Layout</members>
+        <members>CalculationProcedureVariable-Calculation Procedure Variable Layout</members>
+        <members>CalculationProcedureVersion-Calculation Procedure Version Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>CardPaymentMethod-Card Payment Method Layout</members>
@@ -2834,7 +3301,6 @@
         <members>CaseClose-Close Case Layout</members>
         <members>CaseMilestone-Case Milestone Layout</members>
         <members>CommunityMemberLayout-Community Member Layout</members>
-        <members>Comp__c-Comp Layout</members>
         <members>ConsumptionRate-Consumption Rate Layout</members>
         <members>ConsumptionSchedule-Consumption Schedule Layout</members>
         <members>Contact-Contact %28Marketing%29 Layout</members>
@@ -2863,9 +3329,15 @@
         <members>Entitlement-Entitlement Layout</members>
         <members>EntityMilestone-Object Milestone Layout</members>
         <members>Event-Event Layout</members>
+        <members>ExpressionSet-Expression Set Layout</members>
+        <members>ExpressionSetVersion-Expression Set Version Layout</members>
         <members>FeedItem-Feed Item Layout</members>
         <members>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</members>
         <members>FinanceTransaction-Finance Transaction Layout</members>
+        <members>FulfillmentOrder-Fulfillment Order Layout</members>
+        <members>FulfillmentOrderItemAdjustment-Fulfillment Order Item Adjustment Layout</members>
+        <members>FulfillmentOrderItemTax-Fulfillment Order Item Tax Layout</members>
+        <members>FulfillmentOrderLineItem-Fulfillment Order Product Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
@@ -2876,6 +3348,9 @@
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>LegalEntity-Legal Entity Layout</members>
+        <members>Location-Location Layout</members>
+        <members>LocationGroup-Location Group Layout</members>
+        <members>LocationGroupAssignment-Location Group Assignment Layout</members>
         <members>Macro-Macro Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
@@ -2899,7 +3374,6 @@
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
         <members>Property__c-Property Layout</members>
         <members>QuickText-Quick Text Layout</members>
-        <members>Ravi__c-Ravi Layout</members>
         <members>Refund-Refund Layout</members>
         <members>RefundLinePayment-Refund Line Payment Layout</members>
         <members>ReportAnomalyEventStore-Report Anomaly Event Store Layout</members>
@@ -2909,6 +3383,8 @@
         <members>ReturnOrderItemAdjustment-Return Order Item Adjustment Layout</members>
         <members>ReturnOrderItemTax-Return Order Item Tax Layout</members>
         <members>ReturnOrderLineItem-Return Order Line Item Layout</members>
+        <members>RevenueAsyncOperation-Revenue Async Operation Layout</members>
+        <members>RevenueTransactionErrorLog-Revenue Transaction Error Log Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
@@ -2979,6 +3455,8 @@
         <members>Account.NewLastWeek</members>
         <members>Account.NewThisWeek</members>
         <members>Account.PlatinumandGoldSLACustomers</members>
+        <members>ActiveScratchOrg.All_Active_Scratch_Orgs</members>
+        <members>ActiveScratchOrg.My_Active_Scratch_Orgs</members>
         <members>Activity.AllActivities</members>
         <members>Activity.MyActivities</members>
         <members>Activity.TodaysTasks</members>
@@ -2998,6 +3476,8 @@
         <members>BusinessBrand.All_BusinessBrands</members>
         <members>BuyerGroup.All_Buyer_Groups</members>
         <members>BuyerGroup.My_Buyer_Groups</members>
+        <members>CalculationMatrix.All_CalculationMatrices</members>
+        <members>CalculationProcedure.All_CalculationProcedures</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
         <members>CardPaymentMethod.CardPaymentMethod</members>
@@ -3034,6 +3514,7 @@
         <members>Coupon.ALL_Coupons</members>
         <members>CreditMemo.mine</members>
         <members>Customer.All_Customers</members>
+        <members>DataMaskCustomValueLibrary.All_DataMaskCustomValueLibraries</members>
         <members>DataUseLegalBasis.All_DataUseLegalBases</members>
         <members>DataUsePurpose.All_DataUsePurposes</members>
         <members>DigitalWallet.DigitalWallet</members>
@@ -3046,11 +3527,14 @@
         <members>Event.MyTeamsUpcomingEvents</members>
         <members>Event.MyUpcomingEvents</members>
         <members>Event.TodaysAgenda</members>
+        <members>ExpressionSet.All_DiscoveryProcedures</members>
+        <members>ExpressionSet.All_ExpressionSets</members>
         <members>FinanceBalanceSnapshot.mine</members>
         <members>FinanceTransaction.mine</members>
         <members>FlowOrchestrationInstance.All_Orchestration_Instances</members>
         <members>FlowOrchestrationWorkItem.ALL_Open_Work_Items</members>
         <members>FlowOrchestrationWorkItem.All_Work_Items</members>
+        <members>FulfillmentOrder.all_fulfillment_orders</members>
         <members>Idea.Ideas_Last_7_Days</members>
         <members>Incident.AllIncidentsDefault</members>
         <members>Individual.All_Individuals</members>
@@ -3061,7 +3545,10 @@
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
         <members>LegalEntity.mine</members>
+        <members>Location.all_locations</members>
+        <members>LocationGroup.LocationGroup</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
+        <members>NamespaceRegistry.All_Namespace_Registries</members>
         <members>OperatingHours.All_OperatingHours</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
@@ -3082,6 +3569,7 @@
         <members>PaymentGateway.PaymentGateway</members>
         <members>PaymentGroup.PaymentGroup</members>
         <members>PaymentLineInvoice.PaymentLineInvoice</members>
+        <members>Pricebook2.All_Pricebooks</members>
         <members>ProcessException.all_process_exceptions</members>
         <members>Product2.AllProducts</members>
         <members>ProductCatalog.All_Product_Catalogs_List_View</members>
@@ -3096,6 +3584,8 @@
         <members>ReturnOrder.My_ReturnOrders</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
+        <members>ScratchOrgInfo.All_Scratch_Org_Infos</members>
+        <members>ScratchOrgInfo.My_Scratch_Org_Infos</members>
         <members>Seller.All_Sellers</members>
         <members>ServiceAppointment.All_ServiceAppointments</members>
         <members>ServiceAppointment.MyPendingAppointments</members>
@@ -3160,6 +3650,7 @@
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>force__Commerce_Shopper</members>
         <members>force__SubscriptionManagementBillingAdmin</members>
         <members>force__SubscriptionManagementBillingOperations</members>
         <members>force__SubscriptionManagementBuyerIntegrationUser</members>
@@ -3182,7 +3673,6 @@
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>
-        <members>CodeScan Integration</members>
         <members>ContractManager</members>
         <members>Cross Org Data Proxy User</members>
         <members>Custom%3A Marketing Profile</members>
@@ -3203,6 +3693,7 @@
         <members>HighVolumePortal</members>
         <members>Identity User</members>
         <members>MarketingProfile</members>
+        <members>Minimum Access - API Only Integrations</members>
         <members>Minimum Access - Salesforce</members>
         <members>Partner App Subscription User</members>
         <members>Partner Community Login User</members>
@@ -3216,14 +3707,6 @@
         <members>StandardAul</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
-    </types>
-    <types>
-        <members>CodeScan_Integration_profilePasswordPolicy1693996926496</members>
-        <name>ProfilePasswordPolicy</name>
-    </types>
-    <types>
-        <members>CodeScan_Integration_profileSessionSetting1693996926593</members>
-        <name>ProfileSessionSetting</name>
     </types>
     <types>
         <members>Property</members>
@@ -3269,10 +3752,20 @@
         <members>EBotR_v5</members>
         <members>EinsteinBotReports</members>
         <members>EinsteinBotReports_v2</members>
+        <members>unfiled$public/flow_orchestration_log_ootb_report_two_four_eight</members>
+        <members>unfiled$public/flow_orchestration_run_ootb_report_two_four_eight</members>
+        <members>unfiled$public/flow_orchestration_stage_run_ootb_report_two_four_eight</members>
+        <members>unfiled$public/flow_orchestration_step_run_ootb_report_two_four_eight</members>
+        <members>unfiled$public/flow_orchestration_work_item_ootb_report_two_four_eight</members>
         <members>unfiled$public/flow_screen_prebuilt_report</members>
         <name>Report</name>
     </types>
     <types>
+        <members>flow_orchestration_log_ootb_crt_two_four_eight</members>
+        <members>flow_orchestration_run_ootb_crt_two_four_eight</members>
+        <members>flow_orchestration_stage_run_ootb_crt_two_four_eight</members>
+        <members>flow_orchestration_step_run_ootb_crt_two_four_eight</members>
+        <members>flow_orchestration_work_item_ootb_crt_two_four_eight</members>
         <members>screen_flows_prebuilt_crt</members>
         <name>ReportType</name>
     </types>
@@ -3303,11 +3796,11 @@
         <members>Actions</members>
         <members>Activities</members>
         <members>Address</members>
+        <members>Ai4m</members>
         <members>Analytics</members>
         <members>Apex</members>
         <members>AppAnalytics</members>
         <members>AppExperience</members>
-        <members>Archive</members>
         <members>Blockchain</members>
         <members>Bot</members>
         <members>BusinessHours</members>
@@ -3315,6 +3808,7 @@
         <members>Case</members>
         <members>Chatter</members>
         <members>ChatterEmailsMD</members>
+        <members>CodeBuilder</members>
         <members>CollectionsDashboard</members>
         <members>Commerce</members>
         <members>Communities</members>
@@ -3332,6 +3826,7 @@
         <members>DevHub</members>
         <members>Discovery</members>
         <members>DocumentChecklist</members>
+        <members>DynamicForms</members>
         <members>EAC</members>
         <members>EinsteinDocumentCapture</members>
         <members>EmailAdministration</members>
@@ -3345,6 +3840,7 @@
         <members>Essentials</members>
         <members>Event</members>
         <members>ExperienceBundle</members>
+        <members>ExternalClientApp</members>
         <members>FieldService</members>
         <members>FileUploadAndDownloadSecurity</members>
         <members>FilesConnect</members>
@@ -3354,11 +3850,17 @@
         <members>GoogleApps</members>
         <members>HighVelocitySales</members>
         <members>Ideas</members>
+        <members>IdentityProvider</members>
         <members>IncidentMgmt</members>
         <members>Industries</members>
+        <members>IndustriesContext</members>
+        <members>IndustriesEinsteinFeature</members>
+        <members>IndustriesPricing</members>
         <members>InvLatePymntRiskCalc</members>
+        <members>Inventory</members>
         <members>InvocableAction</members>
         <members>Knowledge</members>
+        <members>KnowledgeGeneration</members>
         <members>Language</members>
         <members>LeadConfig</members>
         <members>LightningExperience</members>
@@ -3374,6 +3876,7 @@
         <members>OauthOidc</members>
         <members>ObjectLinking</members>
         <members>OmniChannel</members>
+        <members>OmniChannelPricing</members>
         <members>Opportunity</members>
         <members>Order</members>
         <members>OrderManagement</members>
@@ -3382,9 +3885,11 @@
         <members>PardotEinstein</members>
         <members>PartyDataModel</members>
         <members>PathAssistant</members>
+        <members>Payments</members>
         <members>PaymentsManagementEnabled</members>
         <members>Picklist</members>
         <members>PlatformEncryption</members>
+        <members>PlatformEvent</members>
         <members>Portals</members>
         <members>PredictionBuilder</members>
         <members>Privacy</members>
@@ -3396,6 +3901,7 @@
         <members>RecordPage</members>
         <members>RetailExecution</members>
         <members>Sandbox</members>
+        <members>SceGlobalModelOptOut</members>
         <members>Schema</members>
         <members>Search</members>
         <members>Security</members>
@@ -3403,7 +3909,6 @@
         <members>ServiceSetupAssistant</members>
         <members>Sharing</members>
         <members>Site</members>
-        <members>SocialProfile</members>
         <members>SourceTracking</members>
         <members>Survey</members>
         <members>SystemNotification</members>
@@ -3420,20 +3925,26 @@
     </types>
     <types>
         <members>Account</members>
+        <members>ActiveScratchOrg</members>
         <members>ActivityRecurrence2</members>
         <members>ActivityRecurrence2Exception</members>
+        <members>AiEvaluation</members>
+        <members>AiPromptBuilderGenResult</members>
         <members>AlternativePaymentMethod</members>
         <members>AppointmentInvitation</members>
         <members>Asset</members>
         <members>AssistantInteraction</members>
         <members>AssistantProgress</members>
         <members>AssistantRecommendation</members>
+        <members>AsyncOperationTracker</members>
         <members>AuthorizationForm</members>
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
         <members>Broker__c</members>
         <members>BusinessBrand</members>
         <members>BuyerGroup</members>
+        <members>CalculationMatrix</members>
+        <members>CalculationProcedure</members>
         <members>CalendarModel</members>
         <members>CalendarView</members>
         <members>Campaign</members>
@@ -3452,23 +3963,30 @@
         <members>ContactRequest</members>
         <members>ConvCoachingRecommendation</members>
         <members>Coupon</members>
+        <members>CouponCodeRedemption</members>
         <members>CreditMemo</members>
         <members>Customer</members>
+        <members>DTRecordsetReplica</members>
+        <members>DataMaskCustomValueLibrary</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
+        <members>DecisionTblFileImportData</members>
+        <members>DeliveryEstimationSetup</members>
         <members>EngagementChannelType</members>
         <members>ExchangeUserMapping</members>
+        <members>ExpressionSet</members>
         <members>ExternalEventMapping</members>
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
         <members>FlowInterview</members>
         <members>FlowInterviewLog</members>
         <members>FlowOrchestrationInstance</members>
-        <members>FlowOrchestrationLog</members>
         <members>FlowOrchestrationStageInstance</members>
         <members>FlowOrchestrationStepInstance</members>
         <members>FlowOrchestrationWorkItem</members>
+        <members>FlowRecord</members>
         <members>FlowTestResult</members>
+        <members>FulfillmentOrder</members>
         <members>Image</members>
         <members>Incident</members>
         <members>Individual</members>
@@ -3480,37 +3998,50 @@
         <members>ListEmail</members>
         <members>Location</members>
         <members>LocationGroup</members>
+        <members>LocationShippingCarrierMethod</members>
         <members>Macro</members>
         <members>MacroUsage</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
         <members>NotifDeliveryUserPref</members>
+        <members>OperatingHours</members>
         <members>Opportunity</members>
         <members>Order</members>
         <members>OrgDeleteRequest</members>
         <members>PartyConsent</members>
+        <members>PrivacyJobSession</members>
+        <members>PrivacyObjectSession</members>
+        <members>PrivacyRTBFRequest</members>
+        <members>PrivacySessionRecordFailure</members>
         <members>Problem</members>
         <members>ProcessException</members>
         <members>Product2</members>
         <members>ProductCatalog</members>
         <members>Promotion</members>
+        <members>PromotionLineItemRule</members>
         <members>PromotionSegment</members>
         <members>PromptAction</members>
         <members>PromptError</members>
         <members>Property__c</members>
         <members>QuickText</members>
         <members>QuickTextUsage</members>
-        <members>Ravi__c</members>
         <members>RecordMergeHistory</members>
         <members>ReportResultBlob</members>
         <members>ReturnOrder</members>
+        <members>RevenueTransactionErrorLog</members>
         <members>Scorecard</members>
+        <members>ScratchOrgInfo</members>
         <members>Seller</members>
         <members>ServiceAppointment</members>
+        <members>ServiceAppointmentAttendee</members>
         <members>ServiceContract</members>
         <members>ServiceResource</members>
         <members>ServiceTerritory</members>
         <members>Shift</members>
+        <members>Shipment</members>
+        <members>ShippingCarrier</members>
+        <members>ShippingCarrierMethod</members>
+        <members>ShippingConfigurationSet</members>
         <members>SiqUserBlacklist</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
@@ -3518,8 +4049,11 @@
         <members>TodayGoal</members>
         <members>User</members>
         <members>UserAppMenuCustomization</members>
+        <members>UserDefinedLabel</members>
+        <members>UserDefinedLabelAssignment</members>
         <members>UserEmailPreferredPerson</members>
         <members>UserExternalCredential</members>
+        <members>UserLocalWebServerIdentity</members>
         <members>UserPrioritizedRecord</members>
         <members>UserProvisioningRequest</members>
         <members>VoiceCall</members>
@@ -3560,6 +4094,8 @@
         <members>FiscalYearPeriodPrefix</members>
         <members>FiscalYearQuarterName</members>
         <members>FiscalYearQuarterPrefix</members>
+        <members>FulfillmentStatus</members>
+        <members>FulfillmentType</members>
         <members>IdeaMultiCategory</members>
         <members>IdeaStatus</members>
         <members>Industry</members>
@@ -3625,7 +4161,6 @@
         <members>Order</members>
         <members>Problem</members>
         <members>Property__c</members>
-        <members>Ravi__c</members>
         <members>ResourceAbsence</members>
         <members>ResourcePreference</members>
         <members>ReturnOrder</members>
@@ -3636,6 +4171,7 @@
         <members>ServiceTerritory</members>
         <members>ServiceTerritoryMember</members>
         <members>Shift</members>
+        <members>Shipment</members>
         <members>Solution</members>
         <members>Task</members>
         <members>WorkOrder</members>
@@ -3646,10 +4182,6 @@
         <members>WorkStep</members>
         <members>WorkStepTemplate</members>
         <name>TopicsForObjects</name>
-    </types>
-    <types>
-        <members>de</members>
-        <name>Translations</name>
     </types>
     <types>
         <members>Account.Billing</members>
