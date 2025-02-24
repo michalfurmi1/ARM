@@ -1,0 +1,48 @@
+{
+  "appPageId" : "12b2e0a0-43c2-4422-b6e2-08a967423e23",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "09680b7c-34c2-47c6-b0c6-2fe77400c799",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "af812753-76a9-4b79-8cfc-93aef0fd0bb4",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div>     <p><span style='font-size: 48px;'>Let's get started!</span></p>     <ol>         <li><span style='font-size: 18px;'>Unfamiliar with Build Your Own? Click Take a Tour in the Help menu.</span></li>         <li><span style='font-size: 18px;'>Want to add more pages? Take a look at the Pages menu.</span></li>         <li><span style='font-size: 18px;'>Want more components on your page? Drag and drop components from the Components panel.</span></li>         <li><span style='font-size: 18px;'>Want your users to see your company logo? Head on over to the Theme panel.</span></li>         <li><span style='font-size: 18px;'>Refine the look of your site with a custom theme layout. See the Experience Cloud Developer Guide.</span></li>     </ol> </div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "086b9dca-02bb-4da9-a7cb-87111f1a0b59",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ce73fa7b-de47-4f97-9fe0-6cc5773d7ca0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "dd41e26a-f897-46e6-af2c-f4443ca9f1f1",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "689cdafd-4ce9-4de9-8847-2e64ef52b94c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1f40b9b4-6280-4b42-b7c6-992ca551dbc5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

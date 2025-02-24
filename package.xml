@@ -2771,6 +2771,7 @@
     </types>
     <types>
         <members>AuraCMT1</members>
+        <members>ExpBundle1</members>
         <name>ExperienceBundle</name>
     </types>
     <types>
