@@ -2,5 +2,5 @@
 <ExperienceBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <label>ExpBundle</label>
     <type>ChatterNetworkPicasso</type>
-    <urlPathPrefix>exbundle/s</urlPathPrefix>
+    <urlPathPrefix>expbundle/s</urlPathPrefix>
 </ExperienceBundle>
