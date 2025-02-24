@@ -2722,6 +2722,10 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>AuraCMT</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
         <members>Broker__c</members>
         <members>Mock_Demo__c</members>
         <members>Property_Explorer</members>
@@ -3534,6 +3538,10 @@
         <members>WorkType</members>
         <members>WorkTypeGroup</members>
         <name>SharingRules</name>
+    </types>
+    <types>
+        <members>AuraCMT1</members>
+        <name>SiteDotCom</name>
     </types>
     <types>
         <members>AccountContactRole</members>
