@@ -3155,6 +3155,10 @@
         <name>MilestoneType</name>
     </types>
     <types>
+        <members>AuraCMT</members>
+        <name>Network</name>
+    </types>
+    <types>
         <members>NotificationTypeConfig</members>
         <name>NotificationTypeConfig</name>
     </types>
