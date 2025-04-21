@@ -1,0 +1,5 @@
+public class VAULT314 {
+    public static void hello() {
+        System.debug('Hello from VAULT314!');
+    }
+}

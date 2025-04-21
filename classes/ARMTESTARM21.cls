@@ -1,0 +1,1 @@
+public class ARMTESTARM21 { public static void hello() { System.debug('Hello, World!'); } }

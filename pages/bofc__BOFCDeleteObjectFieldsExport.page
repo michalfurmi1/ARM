@@ -1,0 +1,3 @@
+<apex:page contentType="application/vnd.ms-excel#DeleteMultipleObjectFields.xls" cache="true">
+    <c:BOFCDeleteObjectFieldsExportComp />
+</apex:page>

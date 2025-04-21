@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Price__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Product2Lookup__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>CRMforNonProfit__Quantity__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__TransactionLookup__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

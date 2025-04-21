@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Class_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Exception_Type__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Keyword__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Record_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Stack_Trace__c</name>
+    </fields>
+</CustomObjectTranslation>

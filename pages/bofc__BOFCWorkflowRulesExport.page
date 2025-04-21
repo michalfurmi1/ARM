@@ -1,0 +1,4 @@
+<apex:page cache="true" contentType="application/vnd.ms-excel#ExportWorkflowRules.xls">
+    <!-- <c:BOFCWorkflowRulesExportComp /> -->
+    <c:BOFCWorkflowRulesExportCompSingleTab />
+</apex:page>

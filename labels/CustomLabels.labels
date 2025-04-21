@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CustomLabelsTest</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomLabelsTest</shortDescription>
+        <value>Test</value>
+    </labels>
+    <labels>
+        <fullName>FS_Container_AuthenticationFailure_Title_04IPl000000E9eX_5969236</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS_Container_AuthenticationFailure_Title_04IPl000000E9eX_5969236</shortDescription>
+        <value>log</value>
+    </labels>
+</CustomLabels>

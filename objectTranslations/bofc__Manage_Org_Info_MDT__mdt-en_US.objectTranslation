@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>bofc__Org_INS__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>bofc__Org_P__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>bofc__Org_T__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>bofc__Org_U__c</name>
+    </fields>
+</CustomObjectTranslation>

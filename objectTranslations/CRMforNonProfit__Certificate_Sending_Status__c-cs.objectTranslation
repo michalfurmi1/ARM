@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Odesílání certifikátu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Odesílání certifikátů</value>
+    </caseValues>
+    <fields>
+        <help>Počet již odeslaných certifikátů</help>
+        <label></label>
+        <name>CRMforNonProfit__Certificates_Sent__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Email_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__From_Address_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__GroupQuery__c</name>
+    </fields>
+    <fields>
+        <help>Skupina kontaktů, kam se odesílají certifikáty</help>
+        <label></label>
+        <name>CRMforNonProfit__Group__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Last_Email_Sent__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Listview_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__PDF_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Sent_Today__c</name>
+    </fields>
+    <fields>
+        <help>Stav odesílání. &quot;Příprava&quot; - vytváření skupiny cílových kontaktů. &quot;Ve frontě&quot; - čeká na zahájení odesílání. &quot;Odesílání&quot; - probíhá vytváření, ukládání a odesílání. &quot;Pro dnešek hotovo&quot; - bylo dosaženo administrátorem nastaveného denního limitu. &quot;Hotovo&quot;</help>
+        <label></label>
+        <name>CRMforNonProfit__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>Hotovo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete for Today</masterLabel>
+            <translation>Pro dnešek hotovo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Preparation</masterLabel>
+            <translation>Příprava</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Queue</masterLabel>
+            <translation>Ve frontě</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sending</masterLabel>
+            <translation>Odesílání</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Celkový počet certifikátů k odeslání</help>
+        <label></label>
+        <name>CRMforNonProfit__Total_Certificates_to_be_Send__c</name>
+    </fields>
+    <fields>
+        <help>Rok, pro který jsou certifikáty generovány</help>
+        <label></label>
+        <name>CRMforNonProfit__Year__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Odesílání certifikátu</nameFieldLabel>
+</CustomObjectTranslation>

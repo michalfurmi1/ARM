@@ -188,6 +188,8 @@
     </fields>
     <fields>
         <fullName>LocationType</fullName>
+        <businessStatus>Active</businessStatus>
+        <securityClassification>Internal</securityClassification>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>

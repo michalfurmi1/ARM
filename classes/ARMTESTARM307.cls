@@ -1,0 +1,1 @@
+public class ARMTESTARM307 { public static void printHelloWorld() { System.debug('VAULT, World!'); } }
