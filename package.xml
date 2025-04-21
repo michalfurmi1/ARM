@@ -5,6 +5,7 @@
         <members>FileUtilitiesTest</members>
         <members>GeocodingService</members>
         <members>GeocodingServiceTest</members>
+        <members>OlderAccountsUtility</members>
         <members>PagedResult</members>
         <members>PropertyController</members>
         <members>SampleDataController</members>
