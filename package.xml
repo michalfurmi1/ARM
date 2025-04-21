@@ -2,6 +2,7 @@
     <version>62.0</version>
     <types>
         <members>AktualityController</members>
+        <members>BudgetTableController</members>
         <members>FileUtilities</members>
         <members>FileUtilitiesTest</members>
         <members>GeocodingService</members>
