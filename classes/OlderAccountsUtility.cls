@@ -4,7 +4,7 @@ public class OlderAccountsUtility {
       Account[] oldAccounts = [SELECT Id, Description FROM Account ORDER BY CreatedDate ASC LIMIT 5];
       // loop through them and update the Description field
       for (Account acct : oldAccounts) {
-          acct.Description = 'Heritage Account';
+          acct.Description = 'Heritage Account2';
       }
       // save the change you made
       update oldAccounts;
