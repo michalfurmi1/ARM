@@ -378,6 +378,17 @@
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>Rev__c</picklist>
+            <values>
+                <fullName>RevGreen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RevYellow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>RecordMaster</fullName>
