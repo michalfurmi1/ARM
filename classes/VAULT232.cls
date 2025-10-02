@@ -1,0 +1,5 @@
+public class VAULT232 {
+    public static void hello() {
+        System.debug('Hello from VAULT232!');
+    }
+}

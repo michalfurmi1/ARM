@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>BOFCAuditHistory</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>BOFCAuditHistorys</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>bofc__Action__c</name>
+        <picklistValues>
+            <masterLabel>Click the Button</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Featured Page</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>bofc__Description__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>bofc__Feature__c</name>
+        <picklistValues>
+            <masterLabel>Clone Fields</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clone Object</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clone Report</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

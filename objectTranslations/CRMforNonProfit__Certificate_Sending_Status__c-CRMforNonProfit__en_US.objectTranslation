@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Certificate Sending Status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Certificate Sending Statuses</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>CRMforNonProfit__Certificates_Sent__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Email_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__From_Address_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__GroupQuery__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>CRMforNonProfit__Group__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Last_Email_Sent__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Listview_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__PDF_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Sent_Today__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>CRMforNonProfit__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete for Today</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Preparation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Queue</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sending</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>CRMforNonProfit__Total_Certificates_to_be_Send__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>CRMforNonProfit__Year__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

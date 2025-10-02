@@ -125,6 +125,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -153,6 +157,11 @@
     </fields>
     <fields>
         <fullName>IsActive</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsApproachingDiscountApplicable</fullName>
+        <inlineHelpText>Notifies customers if their cart total is approaching a discount. To add an approaching discount alert, set a threshold value on the promotion qualifier.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

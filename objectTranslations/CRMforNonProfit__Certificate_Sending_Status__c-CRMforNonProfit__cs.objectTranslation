@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Odesílání certifikátu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Odesílání certifikátů</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Odesílání certifikátu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Odesílání certifikátů</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Odesílání certifikátu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Odesílání certifikátů</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Odesílání certifikátu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Odesílání certifikátů</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Odesílání certifikátu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Odesílání certifikátů</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Odesílání certifikátu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Odesílání certifikátů</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Poslané certifikáty</label>
+        <name>CRMforNonProfit__Certificates_Sent__c</name>
+    </fields>
+    <fields>
+        <label>Emailová šablona (Id)</label>
+        <name>CRMforNonProfit__Email_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__From_Address_Id__c</name>
+    </fields>
+    <fields>
+        <label>Skupina kontaktů - SOQL</label>
+        <name>CRMforNonProfit__GroupQuery__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Skupina kontaktů</label>
+        <name>CRMforNonProfit__Group__c</name>
+    </fields>
+    <fields>
+        <label>Den posledního odesílání</label>
+        <name>CRMforNonProfit__Last_Email_Sent__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Listview_Id__c</name>
+    </fields>
+    <fields>
+        <label>PDF šablona (Id)</label>
+        <name>CRMforNonProfit__PDF_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label>Odeslaných v den posledního odesílání</label>
+        <name>CRMforNonProfit__Sent_Today__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Status</label>
+        <name>CRMforNonProfit__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete for Today</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Preparation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Queue</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sending</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Celkem certifikátů k poslání</label>
+        <name>CRMforNonProfit__Total_Certificates_to_be_Send__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Rok</label>
+        <name>CRMforNonProfit__Year__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Odesílání certifikátu</nameFieldLabel>
+</CustomObjectTranslation>

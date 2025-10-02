@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transaction Sync</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transaction Syncs</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Mapping__c</name>
+        <picklistValues>
+            <masterLabel>Source Account, Amount, Date</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Source Account, Amount, Date, Variable</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction Id</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Source_API__c</name>
+        <picklistValues>
+            <masterLabel>CSAS - Accounts API</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSAS - Databanking API</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fio - API Banking</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UniCredit - Business Connect</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Sync_From__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Sync_To__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

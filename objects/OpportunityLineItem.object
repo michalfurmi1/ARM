@@ -121,6 +121,18 @@
         <fullName>Discount</fullName>
     </fields>
     <fields>
+        <fullName>Effective_Item_Start_Date__c</fullName>
+        <label>Effective_Item_Start_Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Item_End_Date__c</fullName>
+        <label>Item_End_Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>ListPrice</fullName>
     </fields>
     <fields>
@@ -151,5 +163,15 @@
     </fields>
     <fields>
         <fullName>UnitPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>Vault_Licenses__c</fullName>
+        <externalId>false</externalId>
+        <label>Vault_Licenses</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
 </CustomObject>

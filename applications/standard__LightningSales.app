@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page_Three_Column</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Contact_Record_Page_Three_Column</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lead_Record_Page_Three_Column</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Lead</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page_Three_Column</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>Sales</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Sell smarter and faster with the world&apos;s #1 CRM solution.</description>
     <formFactors>Small</formFactors>
-    <formFactors>Medium</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
@@ -9,23 +51,63 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Sales</label>
     <navType>Standard</navType>
+    <setupExperience>all</setupExperience>
     <tabs>standard-home</tabs>
-    <tabs>standard-WaveHome</tabs>
-    <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>standard-Task</tabs>
-    <tabs>standard-File</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
-    <tabs>standard-Campaign</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>standard-Forecasting3</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-report</tabs>
-    <tabs>standard-Feed</tabs>
-    <tabs>standard-CollaborationGroup</tabs>
-    <tabs>standard-Event</tabs>
-    <tabs>standard-OtherUserProfile</tabs>
-    <tabs>standard-Case</tabs>
-    <tabs>standard-Forecasting3</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>Explosive_Precursor_File__c</tabs>
+    <tabs>parent1__c</tabs>
+    <tabs>parent2__c</tabs>
+    <tabs>parent3__c</tabs>
+    <tabs>parent4__c</tabs>
+    <tabs>child1__c</tabs>
+    <tabs>child2__c</tabs>
+    <tabs>child3__c</tabs>
+    <tabs>child4__c</tabs>
+    <tabs>child5__c</tabs>
+    <tabs>parent5__c</tabs>
+    <tabs>parent6__c</tabs>
+    <tabs>junctionObj__c</tabs>
+    <tabs>vaultp1__c</tabs>
+    <tabs>vaultc1__c</tabs>
+    <tabs>vaultc2__c</tabs>
+    <tabs>vaultc3__c</tabs>
+    <tabs>ExternalObject__x</tabs>
+    <tabs>Notification__c</tabs>
+    <tabs>User_Notification__c</tabs>
+    <tabs>CustomObejct1__c</tabs>
+    <tabs>CustomObject2__c</tabs>
+    <tabs>CustomObject3__c</tabs>
+    <tabs>CustObj__c</tabs>
+    <tabs>CustObj2__c</tabs>
+    <tabs>CustObj3__c</tabs>
+    <tabs>MetadataCounter__c</tabs>
+    <tabs>vaultA__c</tabs>
+    <tabs>vaultB__c</tabs>
+    <tabs>vaultC__c</tabs>
+    <tabs>vaultD__c</tabs>
+    <tabs>vaultE__c</tabs>
+    <tabs>vaultF__c</tabs>
+    <tabs>vaultG__c</tabs>
+    <tabs>vaultJ__c</tabs>
+    <tabs>vaultK__c</tabs>
+    <tabs>vaultL__c</tabs>
+    <tabs>vaultM__c</tabs>
+    <tabs>vaultN__c</tabs>
+    <tabs>vaultO__c</tabs>
+    <tabs>vaultP__c</tabs>
+    <tabs>vaultH__c</tabs>
+    <tabs>RTA_C_JAHEER__c</tabs>
+    <tabs>RichTextArea_jaheer__c</tabs>
+    <tabs>RabitParent__c</tabs>
+    <tabs>IncBup_Regression_25_2__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSales_UtilityBar</utilityBar>
 </CustomApplication>

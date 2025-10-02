@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>George Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>George Settings</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Accounts_Production_URL__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Accounts_Sandbox_URL__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Client_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Client_Secret__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>CRMforNonProfit__Notifications_Site_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Public_Key__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Redirect_URI__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Token_Endpoint__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Use_Production_Integration__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Web_Api_Key__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

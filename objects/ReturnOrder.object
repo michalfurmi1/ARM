@@ -145,6 +145,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -177,6 +181,14 @@
         <fullName>OwnerId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProcessType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RefundInstructionsHint</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>ReturnedById</fullName>
@@ -234,6 +246,28 @@
     </fields>
     <fields>
         <fullName>TotalDeliveryTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAdjustAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAdjustAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAdjustTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalFeeTaxAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

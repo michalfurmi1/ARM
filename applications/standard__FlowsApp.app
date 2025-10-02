@@ -9,6 +9,53 @@
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>standard-FlowRecord</tabs>
+    <tabs>parent1__c</tabs>
+    <tabs>parent2__c</tabs>
+    <tabs>parent3__c</tabs>
+    <tabs>parent4__c</tabs>
+    <tabs>child1__c</tabs>
+    <tabs>child2__c</tabs>
+    <tabs>child3__c</tabs>
+    <tabs>child4__c</tabs>
+    <tabs>child5__c</tabs>
+    <tabs>parent5__c</tabs>
+    <tabs>parent6__c</tabs>
+    <tabs>junctionObj__c</tabs>
+    <tabs>vaultp1__c</tabs>
+    <tabs>vaultc1__c</tabs>
+    <tabs>vaultc2__c</tabs>
+    <tabs>vaultc3__c</tabs>
+    <tabs>ExternalObject__x</tabs>
+    <tabs>Notification__c</tabs>
+    <tabs>User_Notification__c</tabs>
+    <tabs>CustomObejct1__c</tabs>
+    <tabs>CustomObject2__c</tabs>
+    <tabs>CustomObject3__c</tabs>
+    <tabs>CustObj__c</tabs>
+    <tabs>CustObj2__c</tabs>
+    <tabs>CustObj3__c</tabs>
+    <tabs>MetadataCounter__c</tabs>
+    <tabs>standard-Monitor</tabs>
+    <tabs>vaultA__c</tabs>
+    <tabs>vaultB__c</tabs>
+    <tabs>vaultC__c</tabs>
+    <tabs>vaultD__c</tabs>
+    <tabs>vaultE__c</tabs>
+    <tabs>vaultF__c</tabs>
+    <tabs>vaultG__c</tabs>
+    <tabs>vaultJ__c</tabs>
+    <tabs>vaultK__c</tabs>
+    <tabs>vaultL__c</tabs>
+    <tabs>vaultM__c</tabs>
+    <tabs>vaultN__c</tabs>
+    <tabs>vaultO__c</tabs>
+    <tabs>vaultP__c</tabs>
+    <tabs>vaultH__c</tabs>
+    <tabs>RTA_C_JAHEER__c</tabs>
+    <tabs>RichTextArea_jaheer__c</tabs>
+    <tabs>standard-ActionHub</tabs>
+    <tabs>RabitParent__c</tabs>
+    <tabs>IncBup_Regression_25_2__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>FlowsApp_UtilityBar</utilityBar>
 </CustomApplication>

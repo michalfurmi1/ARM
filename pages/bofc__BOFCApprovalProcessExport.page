@@ -1,0 +1,3 @@
+<apex:page cache="true" contentType="application/vnd.ms-excel#ExportApprovalProcess.xls">
+<c:BOFCApprovalProcessExportComp />
+</apex:page>

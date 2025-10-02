@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Poslať Certifikáty</label>
+        <name>CRMforNonProfit__Certificates_Sent__c</name>
+    </fields>
+    <fields>
+        <label>ID šablóna e-mailu</label>
+        <name>CRMforNonProfit__Email_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__From_Address_Id__c</name>
+    </fields>
+    <fields>
+        <label>Dopyt na skupinu</label>
+        <name>CRMforNonProfit__GroupQuery__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Skupina</label>
+        <name>CRMforNonProfit__Group__c</name>
+    </fields>
+    <fields>
+        <label>Posledný zaslaný Email</label>
+        <name>CRMforNonProfit__Last_Email_Sent__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Listview_Id__c</name>
+    </fields>
+    <fields>
+        <label>ID šablóna PDF</label>
+        <name>CRMforNonProfit__PDF_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label>Počet odoslaných posledný deň</label>
+        <name>CRMforNonProfit__Sent_Today__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>CRMforNonProfit__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete for Today</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Preparation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Queue</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sending</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Celkový počet certifikátov na odoslanie</label>
+        <name>CRMforNonProfit__Total_Certificates_to_be_Send__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Rok</label>
+        <name>CRMforNonProfit__Year__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

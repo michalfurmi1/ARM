@@ -16,14 +16,16 @@
     <enableAutoCompleteCombo>true</enableAutoCompleteCombo>
     <enableAzureDLGen2OutputConnector>false</enableAzureDLGen2OutputConnector>
     <enableCreateLegacyDataflows>true</enableCreateLegacyDataflows>
-    <enableDashboardComponentSnapshot>false</enableDashboardComponentSnapshot>
+    <enableCrtSetupLightningUiPref>true</enableCrtSetupLightningUiPref>
+    <enableDashboardComponentSnapshot>true</enableDashboardComponentSnapshot>
     <enableDashboardFlexiTable>true</enableDashboardFlexiTable>
     <enableDataCloudReportingPref>true</enableDataCloudReportingPref>
     <enableEmailReportsToPortalUsers>false</enableEmailReportsToPortalUsers>
     <enableFirebirdEditor>false</enableFirebirdEditor>
     <enableFloatingReportHeaders>true</enableFloatingReportHeaders>
+    <enableIncludeDisclaimerMessage>false</enableIncludeDisclaimerMessage>
     <enableInsights>true</enableInsights>
-    <enableLightningReportBuilder>false</enableLightningReportBuilder>
+    <enableLightningReportBuilder>true</enableLightningReportBuilder>
     <enableLotusNotesImages>false</enableLotusNotesImages>
     <enableMassEnableReportBuilder>true</enableMassEnableReportBuilder>
     <enableNewChartsEngine>true</enableNewChartsEngine>
@@ -35,29 +37,32 @@
     <enableOrgHasWatchlistEnabled>true</enableOrgHasWatchlistEnabled>
     <enableQueryLiveConnectors>true</enableQueryLiveConnectors>
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
-    <enableRemoveFooterFromRepExp>false</enableRemoveFooterFromRepExp>
+    <enableRemoveFooterFromRepExp>true</enableRemoveFooterFromRepExp>
+    <enableReportCdnPref>true</enableReportCdnPref>
     <enableReportHideXlsExportPref>false</enableReportHideXlsExportPref>
     <enableReportInlineEditPref>true</enableReportInlineEditPref>
     <enableReportNotificationsEnable>true</enableReportNotificationsEnable>
     <enableReportSubOrgEmailPref>false</enableReportSubOrgEmailPref>
+    <enableReportingOnSDMPref>false</enableReportingOnSDMPref>
     <enableRequestPrioritySchdl>false</enableRequestPrioritySchdl>
     <enableS1AnalyticsEclairEnable>true</enableS1AnalyticsEclairEnable>
     <enableS3OutputConnector>false</enableS3OutputConnector>
     <enableSFXJoinedReportsEnable>false</enableSFXJoinedReportsEnable>
     <enableSalesforceOutputConnector>false</enableSalesforceOutputConnector>
     <enableSecureImageSharing>false</enableSecureImageSharing>
+    <enableShowHighContrastChart>false</enableShowHighContrastChart>
     <enableSnowflakeOutputConnector>false</enableSnowflakeOutputConnector>
     <enableSummaryFilterOrgPref>false</enableSummaryFilterOrgPref>
     <enableTableauHyperOutputConnector>false</enableTableauHyperOutputConnector>
     <enableUseOldChartsLookAndFeel>false</enableUseOldChartsLookAndFeel>
     <enableWaveAssetsNewDateVersion>false</enableWaveAssetsNewDateVersion>
-    <enableWaveIndexMVDim>true</enableWaveIndexMVDim>
+    <enableWaveIndexMVDim>false</enableWaveIndexMVDim>
     <enableWaveIndexMVDimV2>false</enableWaveIndexMVDimV2>
     <enableWaveRecordNavigation>false</enableWaveRecordNavigation>
     <enableWaveReplication>false</enableWaveReplication>
     <enableWaveSharingInheritance>false</enableWaveSharingInheritance>
     <enableWaveSqlCFIndexing>false</enableWaveSqlCFIndexing>
-    <enableWaveTrendedDatasetCleanup>false</enableWaveTrendedDatasetCleanup>
+    <enableWaveTrendedDatasetCleanup>true</enableWaveTrendedDatasetCleanup>
     <isDiscoveryOptimizationEnabled>false</isDiscoveryOptimizationEnabled>
     <isHighVolumePushbackEnabled>false</isHighVolumePushbackEnabled>
     <maxHoursAppInProgress>48</maxHoursAppInProgress>

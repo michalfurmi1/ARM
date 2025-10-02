@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>BOFC Picklist ValueSet Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>BOFC Picklist ValueSet Items</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>bofc__BOFC_Picklist_ValueSet__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>bofc__IsActive__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>bofc__IsDefault__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>bofc__Picklist_Label__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>bofc__Picklist_Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

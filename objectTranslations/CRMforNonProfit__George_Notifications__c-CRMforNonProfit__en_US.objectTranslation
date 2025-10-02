@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>George Notifications</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>George Notifications</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Account_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Account_Number__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Notification_URL__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
