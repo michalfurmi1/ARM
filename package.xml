@@ -22240,6 +22240,7 @@
         <members>AssociatedLocation.Type</members>
         <members>Audibene__c.AudibenePicklist__c</members>
         <members>Audibene__c.FLSTest__c</members>
+        <members>Audibene__c.ItemRev__c</members>
         <members>Audibene__c.SupportTeam__c</members>
         <members>AuthorizationForm.DefaultAuthFormTextId</members>
         <members>AuthorizationForm.EffectiveFromDate</members>
@@ -29719,6 +29720,7 @@
     <types>
         <members>Test_GlobalValueTest</members>
         <members>Test_Transalation</members>
+        <members>TrinityValue</members>
         <name>GlobalValueSet</name>
     </types>
     <types>

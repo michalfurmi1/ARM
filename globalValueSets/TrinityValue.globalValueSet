@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>TrinityGreen</fullName>
+        <default>false</default>
+        <label>TrinityGreen</label>
+    </customValue>
+    <customValue>
+        <fullName>TrinityYellow</fullName>
+        <default>false</default>
+        <label>TrinityYellow</label>
+    </customValue>
+    <masterLabel>TrinityValue</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
