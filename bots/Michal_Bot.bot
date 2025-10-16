@@ -352,7 +352,7 @@
         <label>Voice Call Id</label>
     </contextVariables>
     <description>A bot from scratch.</description>
-    <label>Michal Bot</label>
+    <label>Michal Bot xxx</label>
     <logPrivateConversationData>false</logPrivateConversationData>
     <richContentEnabled>false</richContentEnabled>
     <sessionTimeout>0</sessionTimeout>
