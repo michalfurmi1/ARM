@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>62.0</version>
+    <version>63.0</version>
     <types>
         <members>FileUtilities</members>
         <members>FileUtilitiesTest</members>
@@ -43,6 +43,14 @@
         <members>Case</members>
         <members>Lead</members>
         <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>Michal_Bot</members>
+        <name>Bot</name>
+    </types>
+    <types>
+        <members>Michal_Bot.v1</members>
+        <name>BotVersion</name>
     </types>
     <types>
         <members>DataCloudGeoLocation</members>
