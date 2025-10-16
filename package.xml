@@ -46,10 +46,13 @@
     </types>
     <types>
         <members>Michal_Bot</members>
+        <members>This_is_Same_Bot</members>
         <name>Bot</name>
     </types>
     <types>
         <members>Michal_Bot.v1</members>
+        <members>Michal_Bot.v2</members>
+        <members>This_is_Same_Bot.v1</members>
         <name>BotVersion</name>
     </types>
     <types>
