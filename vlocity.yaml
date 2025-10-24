@@ -1,0 +1,10 @@
+projectPath: ./autorabit_alldefault_vlocity_build
+manifest:
+- VlocityCard/TestForImages
+maxDepth: -1
+autoUpdateSettings: true
+separateMatrixVersions: false
+separateCalculationProcedureVersions: false
+CompileOnBuild: true
+ignoreLWCActivationOS: true
+ignoreLWCActivationCards: true
