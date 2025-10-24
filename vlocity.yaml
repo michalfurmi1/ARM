@@ -3,7 +3,7 @@ manifest:
 - VlocityCard/TestForImages
 maxDepth: -1
 autoUpdateSettings: true
-separateMatrixVersions: false
+separateMatrixVersions: true
 separateCalculationProcedureVersions: false
 CompileOnBuild: true
 ignoreLWCActivationOS: true
