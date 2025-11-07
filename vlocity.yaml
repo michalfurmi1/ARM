@@ -1,0 +1,548 @@
+projectPath: ./autorabit_alldefault_vlocity_build
+manifest:
+- AttributeCategory/ACAT_ACC
+- AttributeCategory/ACAT_COMM_COMPONENT
+- AttributeCategory/ACAT_COMM_OFFER
+- AttributeCategory/ATT_CODE_IS
+- AttributeCategory/ACAT_Phones
+- AttributeCategory/ACAT_Plans
+- AttributeCategory/ACAT_SVSLV
+- AttributeCategory/13632dc2-e1fe-7fa7-be36-175bc5886cc2
+- AttributeCategory/ACAT_TECH
+- AttributeCategory/ACAT_USAGE_PRICING
+- CalculationMatrix/AttributePricingMatrix
+- CalculationMatrix/RangeAttributePricingMatrix
+- CalculationMatrix/SourceTargetAttributePricingMatrix
+- CalculationMatrix/sampleSLARetention
+- CalculationMatrix/testMe
+- CalculationMatrixVersion/AttributePricingMatrix v1
+- CalculationMatrixVersion/RangeAttributePricingMatrix v1
+- CalculationMatrixVersion/SourceTargetAttributePricingMatrix v1
+- CalculationMatrixVersion/teamSLARetention V1
+- CalculationProcedure/AttributePricingProcedure
+- CalculationProcedure/RangeAttributePricingProcedure
+- CalculationProcedure/SourceTargetAttributePricingProcedure
+- CalculationProcedure/sampleCustomerLifetimeValue
+- CalculationProcedureVersion/sampleCustomerLifetimeValue V1
+- Catalog/Accessories
+- Catalog/Phones
+- Catalog/Plans
+- Catalog/SAMPLE Mobile Catalog
+- ContextDimension/189136dc-ed4b-99fd-ff1c-46f4abb979fe
+- ContextDimension/51cd614e-9658-c901-e1bc-456f428e769d
+- ContextDimension/2addef16e89f23c1b250db261ab43e3e
+- ContextDimension/62a17c1dcf8f02a1e043ee7a71b0fbf9
+- ContextDimension/76a42e3c0a604cbca7146e3d4cb21aff
+- ContextDimension/595e3d558e66497dd8651d42df5ae8aa
+- ContextScope/00aec8426def4a3f58519b09863d1a4e
+- ContextScope/5fd18f697bf9dba35553c400a300bf1e
+- ContextScope/9be8e65b258dd6b7f1494858a870bd40
+- ContextScope/6920ab8aceb76c8b7fa83df908fb8560
+- ContextScope/96d6a61d9467edf70c99df9ef774a968
+- ContractType/Default
+- DataRaptor/AccountSearch
+- DataRaptor/AmendFrameContract-CreateOppty
+- DataRaptor/AmendFrameContract-CreateOrder
+- DataRaptor/AmendFrameContract-CreateQuote
+- DataRaptor/AmendFrameContractExtract-Oppty
+- DataRaptor/AmendFrameContractExtract-Order
+- DataRaptor/AmendFrameContractExtract-Quote
+- DataRaptor/Billing Import Bundle
+- DataRaptor/CC2 Extract-1658907652309
+- DataRaptor/CC2 Extract-1660822681239
+- DataRaptor/CC2 Extract-V10
+- DataRaptor/CC2 Transform-1658907652309
+- DataRaptor/CC2 Transform-1660822681239
+- DataRaptor/CC2 Transform-V10
+- DataRaptor/CC3 Document Template Extract
+- DataRaptor/CC3 Document Template Transform
+- DataRaptor/CC5 Header Extract
+- DataRaptor/CC5 Line Extract
+- DataRaptor/CC6 Large Doc Extract
+- DataRaptor/CC6 Large Doc Transform
+- DataRaptor/CC7 Custom Class Docx Header Extract
+- DataRaptor/CPQ - Get Order Members
+- DataRaptor/CPQ - Get Root OpportunityItems
+- DataRaptor/CPQ - Get Root OrderItems
+- DataRaptor/CPQ - Get Root QuoteLineItems
+- DataRaptor/CPQ - Get Sub-Orders for Order
+- DataRaptor/CPQ - Lock Group and Members
+- DataRaptor/CPQ - Transform To Array
+- DataRaptor/CPQ-AssetToOrderRequestPayload
+- DataRaptor/CPQ-AssetToQuoteRequestPayload
+- DataRaptor/CPQ-AssetViewer-Response-Transformer
+- DataRaptor/CPQ-CanCreateFailureMessage
+- DataRaptor/CPQ-CreateOpportunity
+- DataRaptor/CPQ-Filter-Existing-Groups
+- DataRaptor/CPQ-Flatten-Asset-Ids
+- DataRaptor/CPQ-Get-Groups-To-Create-List
+- DataRaptor/CPQ-Get-Products-From-Assets
+- DataRaptor/CPQ-QuoteToMasterOrderRequest
+- DataRaptor/CPQ-TransformAssetFields
+- DataRaptor/CPQ-UpdateAsyncJobIdInOrderGroup
+- DataRaptor/CPQ-UpdateJobIdInQuoteGroup
+- DataRaptor/CPQ-UpdateOrderGroupAsyncOperation
+- DataRaptor/CPQ-UpdateQuoteGroupAsyncOperation
+- DataRaptor/CPQAssetToOrderRequestPayload
+- DataRaptor/CPQAssetToQuoteRequestPayload
+- DataRaptor/CPQAssetViewerResponseTransformer
+- DataRaptor/CPQCanCreateFailureMessage
+- DataRaptor/CPQCreateOpportunity
+- DataRaptor/CPQFilterExistingGroups
+- DataRaptor/CPQFlattenAssetIds
+- DataRaptor/CPQGetGroupsToCreateList
+- DataRaptor/CPQGetListsOfValuesDR
+- DataRaptor/CPQGetOrderMembers
+- DataRaptor/CPQGetPriceListsDR
+- DataRaptor/CPQGetProductsFromAssets
+- DataRaptor/CPQGetRootOpportunityItems
+- DataRaptor/CPQGetRootOrderItems
+- DataRaptor/CPQGetRootQuoteLineItems
+- DataRaptor/CPQGetSubOrdersforOrder
+- DataRaptor/CPQLockGroupandMembers
+- DataRaptor/CPQQuoteToMasterOrderRequest
+- DataRaptor/CPQSupportCatalogsForTypeaheadDR
+- DataRaptor/CPQTransformAssetFields
+- DataRaptor/CPQTransformToArray
+- DataRaptor/CPQUpdateAsyncJobIdInOrderGroup
+- DataRaptor/CPQUpdateJobIdInQuoteGroup
+- DataRaptor/CPQUpdateOrderGroupAsyncOperation
+- DataRaptor/CPQUpdateQuoteGroupAsyncOperation
+- DataRaptor/CPQ_CreateSelectedAssetIdsList
+- DataRaptor/CPQ_ExtractAccountIdFromCart
+- DataRaptor/CPQ_ExtractAssetIdsFromOrderMember
+- DataRaptor/CPQ_ExtractAssetIdsFromQuoteMember
+- DataRaptor/CQ2 MultiSite Quote Extract
+- DataRaptor/CQ2 MultiSite Quote Transform
+- DataRaptor/ConsolidateProductData
+- DataRaptor/ConsolidateRawProductData
+- DataRaptor/CreateAccount
+- DataRaptor/CreateContactInteractionTopic
+- DataRaptor/CreateContractDiscounts - Oppty
+- DataRaptor/CreateContractDiscounts - Order
+- DataRaptor/CreateContractDiscounts - Quote
+- DataRaptor/CreateContractVersion
+- DataRaptor/CreateContractVersionLines
+- DataRaptor/CreateDiscounts
+- DataRaptor/CreateEvent
+- DataRaptor/CreateEventForPolicy
+- DataRaptor/CreateEventForPolicyHolder
+- DataRaptor/CreateInteraction
+- DataRaptor/CreateInteractionContact
+- DataRaptor/CreateInteractionForAccount
+- DataRaptor/CreateInteractionForContact
+- DataRaptor/CreateInteractionForPolicy
+- DataRaptor/CreateInteractionForPolicyHolder
+- DataRaptor/CreateInteractionForPolicyHolderPrimary
+- DataRaptor/CreateInteractionForPolicyPrimary
+- DataRaptor/CreateInteractionTopics
+- DataRaptor/CreateLineItems
+- DataRaptor/CreateOrderRequestData
+- DataRaptor/CreateParentContract
+- DataRaptor/CreateParentContractLineItems
+- DataRaptor/CreateQuoteRequestData
+- DataRaptor/CreateSubContractLineItems
+- DataRaptor/CreateSubContractVersions
+- DataRaptor/CreateSubContracts
+- DataRaptor/CustomizeGroupDetails
+- DataRaptor/CustomizeGroupDetailsForReplace
+- DataRaptor/DR_CustomerDetails_1
+- DataRaptor/DR_GETSSUM222
+- DataRaptor/DocGenSample-ExtractDocumentTemplateByIdLWC
+- DataRaptor/DocGenSample-ExtractDocumentTemplatesLWC
+- DataRaptor/DocGenSample-ExtractDocumentTemplatesLWCv1
+- DataRaptor/DocGenSample-GetDocumentTemplatesForType
+- DataRaptor/ExtractAccountFromContact
+- DataRaptor/ExtractAllRootLineItemFromOppt
+- DataRaptor/ExtractAllRootLineItemFromOrder
+- DataRaptor/ExtractAllRootLineItemFromQuote
+- DataRaptor/ExtractAssetBasedOnAccount
+- DataRaptor/ExtractContractLine
+- DataRaptor/ExtractContractRecordTypes
+- DataRaptor/ExtractDocumentTemplateByTemplateType
+- DataRaptor/ExtractFrameContractForActivation
+- DataRaptor/ExtractGroupQuote
+- DataRaptor/GG1 Customer 360 Extract
+- DataRaptor/GG1 Customer 360 Mapping
+- DataRaptor/GenericDocuSignGetContacts
+- DataRaptor/GenericDocuSignGetContentDocumentLink
+- DataRaptor/GenericDocuSignGetDocuments
+- DataRaptor/GenericDocuSignTransformDocuments
+- DataRaptor/GetAccountFromAsset
+- DataRaptor/GetCatalogsFromPriceList
+- DataRaptor/GetContract
+- DataRaptor/GetContractAndLineItem
+- DataRaptor/GetDiscounts
+- DataRaptor/GetDocumentTemplates
+- DataRaptor/GetDocumentTemplatesForType
+- DataRaptor/GetExistingAssetsFromOrderItem
+- DataRaptor/GetExistingAssetsFromQuoteLineItem
+- DataRaptor/GetMultiDocumentTemplatesForType
+- DataRaptor/GetMultisiteRecordDetails
+- DataRaptor/GetOpportunityDetails
+- DataRaptor/GetOpportunityDetailsGlobalHeader
+- DataRaptor/GetOpptyProductIds
+- DataRaptor/GetOrderDetails
+- DataRaptor/GetOrderDetailsGlobalHeader
+- DataRaptor/GetOrderLineItemIdsUsingAssetIds
+- DataRaptor/GetOrderLineItemSFIdsUsingAssetIds
+- DataRaptor/GetOrderLineItems
+- DataRaptor/GetOrderRecordTypeId
+- DataRaptor/GetOrderWCProductIds
+- DataRaptor/GetProducts
+- DataRaptor/GetQuoteDetails
+- DataRaptor/GetQuoteDetailsGlobalHeader
+- DataRaptor/GetQuoteLineItemCount
+- DataRaptor/GetQuoteLineItemIdsUsingAssetIds
+- DataRaptor/GetQuoteLineItemSFIdsUsingAssetIds
+- DataRaptor/GetQuoteRecordTypeId
+- DataRaptor/GetReplacedOrderLineItemIds
+- DataRaptor/GetReplacedQuoteLineItemIds
+- DataRaptor/GetSubContracts
+- DataRaptor/GetWCOpptItemIds
+- DataRaptor/GetWCProductIds
+- DataRaptor/GuestUser-DocGenSample-ExtractDocumentTemplatesLWC
+- DataRaptor/InactiveSelectedContractItems
+- DataRaptor/MultiService - Create or Update Order-Member
+- DataRaptor/MultiService - Get Draft Sub-Orders of Group
+- DataRaptor/MultiService - Get Quote and Order Members
+- DataRaptor/MultiService - Load Default fields for Enterprise Order
+- DataRaptor/MultiService - Load Default fields for Enterprise Quote
+- DataRaptor/MultiService - Load Default fields for Master Order
+- DataRaptor/MultiService - Load Default fields for Master Quote
+- DataRaptor/MultiService - Load Enterprise Orders
+- DataRaptor/MultiService - Load Enterprise Quotes
+- DataRaptor/MultiService - Load Order Products
+- DataRaptor/MultiService - Load Quote Products
+- DataRaptor/MultiService - Update Sub Order
+- DataRaptor/MultiServiceLoadOrderProducts
+- DataRaptor/MultiServiceLoadQuoteProducts
+- DataRaptor/MultiSite - ExtractAccountId
+- DataRaptor/MultiSite - ExtractPriceList
+- DataRaptor/MultiSite - TransformMasterQuoteOrderId
+- DataRaptor/MultiSite - TransformMemberTypeList
+- DataRaptor/MultiSite-GetGroups
+- DataRaptor/MultiSiteExtractAccountId
+- DataRaptor/MultiSiteExtractPriceList
+- DataRaptor/MultiSiteGetGroups
+- DataRaptor/MultiSiteTransformMasterQuoteOrderId
+- DataRaptor/MultiSiteTransformMemberTypeList
+- DataRaptor/Oppty Discount Extract - Create
+- DataRaptor/Oppty Discount Extract - Update
+- DataRaptor/Order Discount Extract - Create
+- DataRaptor/Order Discount Extract - Update
+- DataRaptor/ProductQualifiedFilterTransformer
+- DataRaptor/QueryContractVersion
+- DataRaptor/QueryParentQuote
+- DataRaptor/QuerySubQuotes
+- DataRaptor/Quote Discount Extract - Create
+- DataRaptor/Quote Discount Extract - Update
+- DataRaptor/SubsAgreementExtract-V2-V3-V4-V5-V2-V2
+- DataRaptor/SubsAgreementTransform-V2-V3-V4-V5-V2-V2
+- DataRaptor/TRNG_MobileProdFilter
+- DataRaptor/TRNG_PriceListId
+- DataRaptor/Terminate Contract
+- DataRaptor/TransformDataRaptor
+- DataRaptor/TransformIdsToObjects
+- DataRaptor/TransformNewInteraction
+- DataRaptor/UpdateAccountBillingShippingDetails
+- DataRaptor/UpdateContract
+- DataRaptor/UpdateContractAndLine
+- DataRaptor/UpdateContractDiscounts - Oppty
+- DataRaptor/UpdateContractDiscounts - Order
+- DataRaptor/UpdateContractDiscounts - Quote
+- DataRaptor/UpdateContractVersion
+- DataRaptor/UpdateOpptyDiscountDate
+- DataRaptor/UpdateOrderAccount
+- DataRaptor/UpdateOrderDiscountDate
+- DataRaptor/UpdateParentContract
+- DataRaptor/UpdateParentContractDiscounts
+- DataRaptor/UpdateParentContractLineItem
+- DataRaptor/UpdateParentContractLineItems
+- DataRaptor/UpdateQuoteDiscountDate
+- DataRaptor/UpdateSubContract
+- DataRaptor/UpdateSubContractDiscounts
+- DataRaptor/UpdateSubContractLineItems
+- DataRaptor/UpdateSubContracts
+- DataRaptor/VDOUpdateManualTask
+- DataRaptor/WorkItemExtractDR
+- DataRaptor/WorkItemUpdate
+- DataRaptor/checkExistingAccount
+- DataRaptor/cpqGetRecordType
+- DataRaptor/dcFetchContracts
+- DataRaptor/dcUpdateOrderAddress
+- DataRaptor/extractQuoteDetails_v1
+- DataRaptor/getAccountRecordType
+- DataRaptor/getAccountRegion
+- DataRaptor/getCartId
+- DataRaptor/productDescription
+- DataRaptor/productName
+- DataRaptor/promotionDescription
+- DataRaptor/promotionName
+- DataRaptor/sampleAccountSearch
+- DataRaptor/sampleChangePriContact
+- DataRaptor/sampleChangePriContactTA
+- DataRaptor/sampleCreateCase
+- DataRaptor/sampleCreateComment
+- DataRaptor/sampleCreatePriContact
+- DataRaptor/sampleGetAccountDetails
+- DataRaptor/sampleGetCaseComments
+- DataRaptor/sampleGetCaseDetails
+- DataRaptor/sampleGetCaseList
+- DataRaptor/sampleGetContactDetails
+- DataRaptor/sampleGetMasterAccountDetails
+- DataRaptor/sampleGetPriContactDetails
+- DataRaptor/samplePostXformWeather
+- DataRaptor/sampleSaveAccountDetails
+- DataRaptor/sampleSaveCaseDetails
+- DataRaptor/sampleSaveContactDetails
+- DataRaptor/sampleUpdatePriContact
+- DataRaptor/teamStarterChangePriContact
+- DataRaptor/teamStarterChangePriContactTA
+- DataRaptor/teamStarterCreatePriContact
+- DataRaptor/teamStarterGetMasterAccountDetails
+- DataRaptor/teamStarterGetPriContactDetails
+- DataRaptor/teamStarterUpdatePriContact
+- DataRaptor/teamStarterXformWeather
+- DataRaptor/teamStubChangePriContactTA
+- DataRaptor/updateOIsQuantity
+- DataRaptor/updateOpptLIsQuantity
+- DataRaptor/updateQLIsQuantity
+- DocumentClause/CONFIDENTIALITY - Confidentiality
+- DocumentClause/CONFIDENTIALITY - Cooperation
+- DocumentClause/CONFIDENTIALITY - Destruction and Return of Confidential Information
+- DocumentClause/Device Trade In
+- DocumentClause/Ewaste tax disclaimer
+- DocumentClause/Export Compliance
+- DocumentClause/FEES AND PAYMENTS - Fees
+- DocumentClause/FEES AND PAYMENTS - Payment Methods
+- DocumentClause/FEES AND PAYMENTS - Payment Terms
+- DocumentClause/Fees
+- DocumentClause/License Grant
+- DocumentClause/Return Policy
+- DocumentClause/Taxes and Surcharges
+- DocumentClause/Your Responsibilities
+- DocumentTemplate/Multisite Quote (DOCX)
+- DocumentTemplate/Quote PDF Template
+- DocumentTemplate/Subscribe Agreement Template
+- DocumentTemplate/T&C
+- DocumentTemplate/T&C - FSCP
+- DocumentTemplate/Telecom Agreement Template
+- DocumentTemplate/Telecom Confidentiality
+- DocumentTemplate/Telecom Fees & Payments
+- DocumentTemplate/Telecom Services Agreement Copy
+- EntityFilter/f0e0a7f3-75ab-4f18-4732-749f01064aa1
+- EntityFilter/26123d4d-7d5b-a36b-d931-880aea57835d
+- EntityFilter/82ec6bc2ca94400d5dbea1b2c8fc260a
+- EntityFilter/88b3776dcbbc04cda7250c6c41dd44fd
+- EntityFilter/aad2bba4bbaa8efe0394ee0bb4507be3
+- EntityFilter/3cb26c8d0af9c47bf5f85bc2c943f09d
+- EntityFilter/f59ad1b2247946c588af340d525eaa3d
+- IntegrationProcedure/ActivateFrameAgreement_Oppty
+- IntegrationProcedure/ActivateFrameAgreement_Order
+- IntegrationProcedure/ActivateFrameAgreement_Quote
+- IntegrationProcedure/AmendFrameAgreement_Oppty
+- IntegrationProcedure/AmendFrameAgreement_Order
+- IntegrationProcedure/AmendFrameAgreement_Quote
+- IntegrationProcedure/CPQ_AddChildItems
+- IntegrationProcedure/CPQ_AddMembersExecuteProcess
+- IntegrationProcedure/CPQ_AddMembersFinishProcess
+- IntegrationProcedure/CPQ_AddMembersStartProcess
+- IntegrationProcedure/CPQ_AddToGroupAsync
+- IntegrationProcedure/CPQ_ApplyAdjustment
+- IntegrationProcedure/CPQ_ApplyConfigurations
+- IntegrationProcedure/CPQ_ApplyDiscount
+- IntegrationProcedure/CPQ_BulkAddFinishProcess
+- IntegrationProcedure/CPQ_BulkApplyConfigFinishProcess
+- IntegrationProcedure/CPQ_BulkDisconnectFinishProcess
+- IntegrationProcedure/CPQ_BulkPostCartItems
+- IntegrationProcedure/CPQ_BulkReplaceFinishProcess
+- IntegrationProcedure/CPQ_BulkUpdateCartGroupIdsFinishProcess
+- IntegrationProcedure/CPQ_BulkUpdateFinishProcess
+- IntegrationProcedure/CPQ_CancelCartItem
+- IntegrationProcedure/CPQ_CloneLineItems
+- IntegrationProcedure/CPQ_CopyWorkingCartToOppt
+- IntegrationProcedure/CPQ_CreateAssetizedOrderItem
+- IntegrationProcedure/CPQ_CreateAssetizedQuoteLineItem
+- IntegrationProcedure/CPQ_CreateGroupsExecuteProcess
+- IntegrationProcedure/CPQ_CreateGroupsFinishProcess
+- IntegrationProcedure/CPQ_CreateLineItemsFinishProcess
+- IntegrationProcedure/CPQ_CreateLineItemsFinishProcessForReplaceOffer
+- IntegrationProcedure/CPQ_CreateMasterOrderAndGetMemberTypeIds
+- IntegrationProcedure/CPQ_CreateMembersForGroup
+- IntegrationProcedure/CPQ_CreateOrder
+- IntegrationProcedure/CPQ_CreateQuote
+- IntegrationProcedure/CPQ_CreateWorkingCart
+- IntegrationProcedure/CPQ_DeleteCartDiscount
+- IntegrationProcedure/CPQ_DeleteCartPromotion
+- IntegrationProcedure/CPQ_DeleteItemFromCart
+- IntegrationProcedure/CPQ_DeletePriceAdjustment
+- IntegrationProcedure/CPQ_DeserializeString
+- IntegrationProcedure/CPQ_DisconnectLineItems
+- IntegrationProcedure/CPQ_ExecuteAddLineItems
+- IntegrationProcedure/CPQ_ExecuteDisconnectLineItems
+- IntegrationProcedure/CPQ_ExecuteQuoteToOrder
+- IntegrationProcedure/CPQ_ExecuteReplaceOffer
+- IntegrationProcedure/CPQ_ExecuteSplitOrder
+- IntegrationProcedure/CPQ_ExecuteUpdateLineItems
+- IntegrationProcedure/CPQ_FinishBulkQuoteToOrder
+- IntegrationProcedure/CPQ_GetAppliedDiscounts
+- IntegrationProcedure/CPQ_GetAssetFieldsData
+- IntegrationProcedure/CPQ_GetAssetViewerLineItems
+- IntegrationProcedure/CPQ_GetAssetsFromGroupCart
+- IntegrationProcedure/CPQ_GetAsyncJobStatus
+- IntegrationProcedure/CPQ_GetCartItems
+- IntegrationProcedure/CPQ_GetCartLineItemPrices
+- IntegrationProcedure/CPQ_GetCartSummary
+- IntegrationProcedure/CPQ_GetCartsProducts
+- IntegrationProcedure/CPQ_GetCatalogs
+- IntegrationProcedure/CPQ_GetCatalogsByQuery
+- IntegrationProcedure/CPQ_GetDiscount
+- IntegrationProcedure/CPQ_GetGlobalHeaderDetails
+- IntegrationProcedure/CPQ_GetGroupLevelConsolidatedData
+- IntegrationProcedure/CPQ_GetLineItemIdsUsingAssetIds
+- IntegrationProcedure/CPQ_GetLineItemSFIdsUsingAssetIds
+- IntegrationProcedure/CPQ_GetListsOfValues
+- IntegrationProcedure/CPQ_GetMemberTypeIds
+- IntegrationProcedure/CPQ_GetPriceDetail
+- IntegrationProcedure/CPQ_GetPriceLists
+- IntegrationProcedure/CPQ_GetProducts
+- IntegrationProcedure/CPQ_GetProductsRemoteCall
+- IntegrationProcedure/CPQ_GetPromotions
+- IntegrationProcedure/CPQ_GetPromotionsAppliedToCart
+- IntegrationProcedure/CPQ_GetPromotionsRemoteCall
+- IntegrationProcedure/CPQ_GetReplacedLineItemIds
+- IntegrationProcedure/CPQ_GetRootLineItemIds
+- IntegrationProcedure/CPQ_GetSubOrderByCartId
+- IntegrationProcedure/CPQ_IsCartEmpty
+- IntegrationProcedure/CPQ_LockGroupsAndMembers
+- IntegrationProcedure/CPQ_MassDiscountExecuteProcess
+- IntegrationProcedure/CPQ_MassDiscountFinishProcess
+- IntegrationProcedure/CPQ_MassDiscountStartProcess
+- IntegrationProcedure/CPQ_OrderActionUtil
+- IntegrationProcedure/CPQ_PriceLineItems
+- IntegrationProcedure/CPQ_PriceLineItemsFinishProcess
+- IntegrationProcedure/CPQ_ProductPromotionContainer
+- IntegrationProcedure/CPQ_ReplaceOffers
+- IntegrationProcedure/CPQ_RollupCart
+- IntegrationProcedure/CPQ_SearchChildProducts
+- IntegrationProcedure/CPQ_SendAppNotification
+- IntegrationProcedure/CPQ_StartBulkChange
+- IntegrationProcedure/CPQ_StartBulkCreateGroups
+- IntegrationProcedure/CPQ_StartBulkQuoteToOrder
+- IntegrationProcedure/CPQ_StartBulkReplace
+- IntegrationProcedure/CPQ_StartBulkSplitOrder
+- IntegrationProcedure/CPQ_StartMassDiscount
+- IntegrationProcedure/CPQ_SubmitDiscountsForApproval
+- IntegrationProcedure/CPQ_SubmitOrder
+- IntegrationProcedure/CPQ_SubmitOrderWrapper
+- IntegrationProcedure/CPQ_UpdateCartGroupIds
+- IntegrationProcedure/CPQ_UpdateCartItem
+- IntegrationProcedure/CPQ_UpdateItemAttributes
+- IntegrationProcedure/CPQ_UpdateLineItems
+- IntegrationProcedure/CPQ_ValidateLineItems
+- IntegrationProcedure/CPQ_ValidateLineItemsFinishProcess
+- IntegrationProcedure/CPQ_copyGroupCartToenterpriseOrder
+- IntegrationProcedure/CPQ_copyWorkingCartToEnterpriseQuote
+- IntegrationProcedure/CPQ_getCartsAttributes
+- IntegrationProcedure/CPQ_getCartsTargetOffers
+- IntegrationProcedure/CPQ_getFeatureSetupValue
+- IntegrationProcedure/CPQ_updateCarts
+- IntegrationProcedure/CreateFrameAgreement_Oppty
+- IntegrationProcedure/CreateFrameAgreement_Order
+- IntegrationProcedure/CreateFrameAgreement_Quote
+- IntegrationProcedure/CustomerInteractionAccountCMT_Creation
+- IntegrationProcedure/CustomerInteractionAccount_Creation
+- IntegrationProcedure/CustomerInteractionContactCMT_Creation
+- IntegrationProcedure/CustomerInteractionContact_Creation
+- IntegrationProcedure/Digital_CreateOrder
+- IntegrationProcedure/DocumentServiceGateway_DocGeneration
+- IntegrationProcedure/DocumentServiceGateway_DocGenerationPDF
+- IntegrationProcedure/DocumentServiceGateway_DocGenerationWithTokenData
+- IntegrationProcedure/Interaction_handleInteractionFieldClick
+- IntegrationProcedure/MultiService_ApplyToGroup
+- IntegrationProcedure/MultiService_ApplyToGroupPostProcess
+- IntegrationProcedure/MultiService_Checkout
+- IntegrationProcedure/MultiService_CheckoutOrder
+- IntegrationProcedure/MultiService_CheckoutQuote
+- IntegrationProcedure/MultiService_FinishCartPricing
+- IntegrationProcedure/MultiService_FinishCartValidation
+- IntegrationProcedure/MultiService_FinishCheckoutQuote
+- IntegrationProcedure/MultiService_GetExternalPricing
+- IntegrationProcedure/MultiService_GroupRollups
+- IntegrationProcedure/MultiService_ProductQuantityRollups
+- IntegrationProcedure/MultiService_RequestExternalPricing
+- IntegrationProcedure/MultiService_RunCartPricing
+- IntegrationProcedure/MultiService_RunCartValidation
+- IntegrationProcedure/MultiService_StartApplyToGroup
+- IntegrationProcedure/MultiService_StartCheckoutQuote
+- IntegrationProcedure/MultiService_StartCreateAndSubmitOrders
+- IntegrationProcedure/MultiService_StartSubmitOrders
+- IntegrationProcedure/MultiService_StartValidatePrice
+- IntegrationProcedure/MultiService_ValidateAndPrice
+- IntegrationProcedure/MultiService_ValidateAndUpdateExternalPricingStatus
+- IntegrationProcedure/MultiSite_AddToGroup
+- IntegrationProcedure/MultiSite_ApplyToGroup
+- IntegrationProcedure/MultiSite_CreateMasterOrder
+- IntegrationProcedure/MultiSite_CreateMasterQuote
+- IntegrationProcedure/MultiSite_CreateNewGroup
+- IntegrationProcedure/MultiSite_DeleteMembers
+- IntegrationProcedure/MultiSite_GetFilterFieldList
+- IntegrationProcedure/MultiSite_GetGroupMembers
+- IntegrationProcedure/MultiSite_GetGroups
+- IntegrationProcedure/MultiSite_GetMemberTypeList
+- IntegrationProcedure/MultiSite_GetObjectFieldsDescribe
+- IntegrationProcedure/MultiSite_GetUngroupedRecords
+- IntegrationProcedure/MultiSite_RemoveGroups
+- IntegrationProcedure/MultiSite_StartApplyToGroup
+- IntegrationProcedure/MultiSite_StartValidatePrice
+- IntegrationProcedure/MultiSite_UpdateGroup
+- IntegrationProcedure/UpdateFrameAgreement_Oppty
+- IntegrationProcedure/UpdateFrameAgreement_Order
+- IntegrationProcedure/UpdateFrameAgreement_Quote
+- IntegrationProcedure/clm_CreateContractDiscounts
+- IntegrationProcedure/clm_CreateParentContractChildObjects
+- IntegrationProcedure/clm_CreateSubContractChildObjects
+- IntegrationProcedure/clm_DeleteAllContractLineItems
+- IntegrationProcedure/clm_DeleteAllContracts
+- IntegrationProcedure/clm_UpdateParentContractDiscounts
+- IntegrationProcedure/clm_UpdateParentContractLineItems
+- IntegrationProcedure/clm_UpdateSubContractLineItems
+- IntegrationProcedure/clm_asyncDeleteContracts
+- IntegrationProcedure/clm_asyncQuoteToContract
+- IntegrationProcedure/clm_asyncUpdateContracts
+- IntegrationProcedure/clm_updateSubContract
+- IntegrationProcedure/clm_updateSubContractDiscounts
+- IntegrationProcedure/clm_updateSubContracts
+- IntegrationProcedure/dc_CreateOrder
+- IntegrationProcedure/dc_SubmitOrder
+- IntegrationProcedure/dc_createAccount
+- IntegrationProcedure/dc_createAccountLWC
+- IntegrationProcedure/dc_updateBillingDetails
+- IntegrationProcedure/sample_getAccountDetails
+- IntegrationProcedure/sample_getCaseDetails
+- IntegrationProcedure/sample_getCaseList
+- IntegrationProcedure/sample_getContactDetails
+- IntegrationProcedure/sample_getMasterAccountDetails
+- IntegrationProcedure/sample_getPrimaryContactDetails
+- IntegrationProcedure/sample_getWeatherForecast
+- IntegrationProcedure/sample_saveAccountDetails
+- IntegrationProcedure/sample_saveCaseDetails
+- IntegrationProcedure/sample_saveContactDetails
+- IntegrationProcedure/sample_savePrimaryContactDetails
+- IntegrationProcedure/team_getAccountDetails
+- IntegrationProcedure/team_getCaseDetails
+- IntegrationProcedure/team_getCaseList
+- IntegrationProcedure/team_getContactDetails
+- IntegrationProcedure/team_getMasterAccountDetails
+- IntegrationProcedure/team_getPrimaryContactDetails
+- IntegrationProcedure/team_getWeatherForecast
+- IntegrationProcedure/team_saveAccountDetails
+- IntegrationProcedure/team_saveCaseDetails
+- IntegrationProcedure/team_saveContactDetails
+- IntegrationProcedure/team_savePrimaryContactDetails
+maxDepth: -1
+autoUpdateSettings: true
+separateMatrixVersions: true
+separateCalculationProcedureVersions: true
+CompileOnBuild: true
